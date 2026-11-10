@@ -5,7 +5,7 @@ ator: leitor com conta
 job: pôr na biblioteca o livro que quer ouvir e tirar o que não quer mais
 status: Desenhado
 alertas: []
-versao: 2.0
+versao: 2.1
 aprovado: 2026-11-10
 prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
@@ -51,6 +51,7 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - O leitor pode importar vários arquivos de uma vez pelo seletor do iOS. Cada um vira um card **Importando**.
 - Importar não gera narração. A voz só é gerada quando o leitor dá play.
 - **Excluir livro** sempre avisa que as marcações do livro também serão apagadas.
+- A **Biblioteca** tem uma busca por título e autor, logo abaixo do título da tela. O resultado filtra a lista enquanto o leitor digita, sem precisar confirmar. Sem resultado, a tela diz "Nenhum livro encontrado". Decidido pelo Matheus em 10/11/2026.
 - Com a assinatura expirada, o botão de importar leva ao paywall de [Assinar o Traça](assinar-o-traca.md). Excluir continua liberado.
 
 ### Mensagens
@@ -93,11 +94,11 @@ As telas usam os componentes do design system do canvas (página "Marca e design
 
 ## Dentro do escopo
 
-- Importar pelo app e pelo "Compartilhar", vários de uma vez, livro repetido, erro de importação e exclusão.
+- Importar pelo app e pelo "Compartilhar", vários de uma vez, livro repetido, erro de importação, busca e exclusão.
 
 ## Fora do escopo
 
-- Coleções, pastas, etiquetas e busca na biblioteca. Voltam quando a biblioteca de um leitor típico passar de umas 30 obras.
+- Coleções, pastas e etiquetas. Voltam quando a biblioteca de um leitor típico passar de umas 30 obras.
 - Editar título, autor ou capa.
 
 ## Fluxos conectados
