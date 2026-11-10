@@ -40,6 +40,8 @@ O ícone à esquerda do nome "traça", alinhados pelo centro. Versão principal:
 
 O app segue o Liquid Glass da Apple (iOS 26). Só a camada de controle vira vidro e flutua sobre o conteúdo: a barra do player, o mini player, os botões do topo, os chips, os painéis que sobem da base, os avisos e o seletor de abas. O conteúdo (texto do livro, capas, listas) não é vidro e passa por baixo dos controles. O laranja continua sólido no play e no botão principal, para o texto manter o contraste. Decidido pelo Matheus em 10/11/2026.
 
+No MVP, o app é sempre claro e não segue o modo escuro do iPhone. As cores do modo escuro ficam guardadas no design system para depois. Decidido pelo Matheus em 10/11/2026.
+
 ## Tom de voz
 
 O app já tem uma voz que lê. A voz que escreve soa como a mesma pessoa: tranquila, próxima e direta. Aprovado pelo Matheus em 10/11/2026.

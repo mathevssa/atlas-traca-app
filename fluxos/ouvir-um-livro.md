@@ -5,7 +5,7 @@ ator: leitor com o teste ou a assinatura ativos
 job: ouvir o livro com uma voz natural, acompanhando o texto, e controlar a narração sem atrito
 status: Desenhado
 alertas: []
-versao: 2.1
+versao: 2.2
 aprovado: 2026-11-10
 prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
@@ -17,7 +17,7 @@ prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL), página "App V1", linha OUV. Aprovado pelo Matheus em 10/11/2026.
 
 - **OUV-001 · Player** · texto acompanhando a voz e a barra de controles em vidro.
-- **OUV-002 · Player · modo escuro** · o mesmo player no modo escuro.
+- **OUV-002 · Player · modo escuro** · fica para depois do MVP, que é sempre claro. Está no canvas só como referência.
 - **OUV-003 · Player · rolagem manual** · a pílula "Voltar para onde estou".
 - **OUV-004 · Velocidade** · painel de velocidade de 0,75x a 2x.
 - **OUV-005 · Vozes** · painel de vozes com amostra.
