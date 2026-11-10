@@ -4,7 +4,7 @@ titulo: Livro
 definicao: Um arquivo de ebook que o leitor importou para o Traça e que aparece na biblioteca, pronto para virar audiolivro.
 status: Clarificação
 alertas: []
-versao: 1.4
+versao: 1.5
 aprovado:
 ---
 
@@ -24,7 +24,7 @@ aprovado:
 | Formato | Sim | EPUB, PDF, MOBI, AZW3, FB2, TXT ou RTF, sem DRM. A lista mora nos princípios da [Constituição](../constituicao.md#princípios). |
 | Arquivo original | Sim | Cópia do arquivo que o leitor escolheu. Fica guardado no servidor do Traça, ligado à [Conta](conta.md), com uma cópia no aparelho. Antes do login, fica só no aparelho e sobe para a conta no primeiro login. Decidido pelo Matheus em 10/11/2026. |
 | Impressão digital | Sim | Identifica o conteúdo do arquivo, para reconhecer quando o mesmo livro é importado de novo. Calculada pelo app na importação. |
-| Capítulos | Não | Lista ordenada, lida do sumário do arquivo. Serve só para o leitor navegar: a narração é gerada em trechos e não depende dela. Arquivo sem sumário (comum em PDF e TXT) fica sem lista de capítulos. Decidido pelo Matheus em 10/11/2026. |
+| Capítulos | Não | Lista ordenada, lida do sumário do arquivo. Serve só para o leitor navegar: a narração é gerada em trechos e não depende dela. Quando o arquivo não tem sumário (comum em PDF e TXT), o app tenta reconhecer os capítulos no próprio texto, por títulos como "Capítulo 1" ou "Parte II". Se não conseguir, o livro aparece como um capítulo só. Decidido pelo Matheus em 10/11/2026. |
 | Posição atual | Sim | O ponto do livro onde a narração parou. Começa no início do livro. A tela de texto sempre abre nessa mesma posição, e o play sempre continua dela. |
 | Marcações | Não | Lista de pontos do livro que o leitor salvou para voltar depois. Cada marcação guarda a posição, o capítulo e a data em que foi criada. A marcação não tem nota nem cor e não serve para mais nada além de voltar ao ponto. Decidido pelo Matheus em 10/11/2026. |
 | Importado em | Sim | Data e hora da importação, gerada pelo app. |
