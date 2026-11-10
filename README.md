@@ -12,7 +12,7 @@ A especificação do Traça, um app de iOS para ler e ouvir os livros do própri
 
 - [Constituição](constituicao.md) · o que o produto é, para quem, os princípios e a hierarquia das fontes.
 - Visão geral · escrita por último, quando houver três ou mais fluxos.
-- Objetos · as coisas do app e suas regras. A definir, depois que a árvore estiver acordada.
+- [Objetos](objetos/README.md) · as coisas do app e suas regras: Livro, Narração e Assinatura.
 - Fluxos · o caminho do leitor, tela a tela. A definir, depois dos objetos.
 
 ## Medida e marca

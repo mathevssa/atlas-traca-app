@@ -1,0 +1,50 @@
+// Modelo conceitual do Traça: como o produto entende as entidades.
+// Não é o schema do banco. Gerado a partir dos arquivos de objeto.
+
+Table livro {
+  id uuid [pk]
+  titulo text [not null, note: 'metadados do arquivo; sem título, nome do arquivo']
+  autor text
+  capa image
+  formato text [not null, note: 'EPUB | PDF | MOBI | AZW3 | FB2 | TXT | RTF']
+  arquivo_original file [not null]
+  posicao_atual position [not null]
+  importado_em timestamp [not null]
+  aberto_em timestamp
+  estado text [not null, note: 'Importando | Disponível']
+}
+
+Table capitulo {
+  id uuid [pk]
+  livro_id uuid [not null, ref: > livro.id]
+  ordem int [not null]
+  titulo text
+  inicio position [not null]
+  fim position [not null]
+}
+
+Table marcacao {
+  id uuid [pk]
+  livro_id uuid [not null, ref: > livro.id]
+  capitulo_id uuid [ref: > capitulo.id]
+  posicao position [not null]
+  criada_em timestamp [not null]
+}
+
+Table narracao {
+  id uuid [pk]
+  capitulo_id uuid [not null, unique, ref: - capitulo.id]
+  voz text [not null]
+  audio file
+  duracao interval
+  gerada_em timestamp
+  estado text [not null, note: 'Gerando | Pronta | Com erro']
+}
+
+Table assinatura {
+  id uuid [pk]
+  plano text [not null, note: 'Plano mensal | Plano anual']
+  estado text [not null, note: 'Em teste | Ativa | Expirada']
+  fim_do_periodo timestamp [not null]
+  renovacao_automatica bool [not null]
+}
