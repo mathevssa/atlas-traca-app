@@ -4,7 +4,7 @@ titulo: Assinatura
 definicao: O direito do leitor de usar o Traça, comprado pela App Store, com teste grátis de 7 dias e cobrança mensal ou anual depois.
 status: Clarificação
 alertas: []
-versao: 1.1
+versao: 1.2
 aprovado:
 ---
 
@@ -19,7 +19,7 @@ aprovado:
 | Atributo | Obrigatório | Regra |
 |---|---|---|
 | Plano | Sim | Plano mensal ou Plano anual. O leitor escolhe ao começar o teste grátis. |
-| Preço | Sim | Definido na App Store. O Plano anual custa 20% menos que doze meses do Plano mensal. Valores: A definir. |
+| Preço | Sim | Plano mensal: R$ 39,90. Plano anual: 20% menos que doze meses do mensal, cerca de R$ 379,90. Se essa faixa não existir na App Store brasileira, o anual fica em R$ 399,90. É o preço inicial, para testar, e pode mudar com os dados de conversão. Decidido pelo Matheus em 10/11/2026. |
 | Estado | Sim | Ver Ciclo de vida. |
 | Fim do período atual | Sim | Data em que o teste ou o período pago termina. Vem da App Store. |
 | Renovação automática | Sim | Ligada ou desligada. Quem muda é o leitor, nos Ajustes do iOS. |
