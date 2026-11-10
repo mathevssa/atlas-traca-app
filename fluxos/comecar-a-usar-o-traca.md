@@ -5,7 +5,7 @@ ator: leitor que acabou de instalar o app
 job: ouvir o próprio livro em poucos segundos e decidir se vale assinar
 status: Desenhado
 alertas: []
-versao: 2.0
+versao: 2.1
 aprovado: 2026-11-10
 prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
@@ -67,7 +67,7 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 ### Voz e livro de amostra
 
 - O leitor escolhe a voz antes do primeiro play. A primeira voz da lista vem pré-selecionada, para quem só quer confirmar. Decidido pelo Matheus em 10/11/2026.
-- O livro de amostra é um texto de domínio público, com a narração já gerada pelo Traça em todas as vozes. Ouvir a amostra não gasta os 5 minutos grátis e não tem limite de tempo. Decidido pelo Matheus em 10/11/2026.
+- O livro de amostra é *O Alienista*, de Machado de Assis, em domínio público, com a narração já gerada pelo Traça em todas as vozes. Ouvir a amostra não gasta os 5 minutos grátis e não tem limite de tempo. Decidido pelo Matheus em 10/11/2026.
 - O livro de amostra não conta como o livro importado antes do login: depois de ouvir a amostra, o leitor ainda pode importar um livro dele.
 
 ### Login e teste
@@ -134,7 +134,6 @@ As telas usam os componentes do design system do canvas (página "Marca e design
 
 ## Definições pendentes
 
-- Qual livro de domínio público é a amostra. Sugestão do Claude: *O Alienista*, de Machado de Assis (novela curta, cerca de 3 horas de narração, 13 capítulos, conhecida de quase todo brasileiro). Gerar a narração dele em todas as vozes custa pouco, porque é feito uma vez só. · Matheus confirma.
 - Em que ordem as vozes aparecem em **Escolher a voz**. · Matheus, depois do teste de escuta.
 
 ## Fluxos conectados
