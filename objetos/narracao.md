@@ -42,7 +42,7 @@ Um trecho que ainda não tem narração simplesmente não tem registro. A geraç
 | `Com erro` | O leitor toca em "Tentar de novo" | `Gerando` | Leitor | Recomeça a geração. |
 | `Pronta` | O leitor exclui o livro | — | Leitor | O áudio é apagado do aparelho. |
 
-Sem internet, o trecho que já está `Pronta` toca normalmente. Um trecho sem narração mostra um aviso de que precisa de conexão para ser gerada. Decidido pelo Matheus em 10/11/2026.
+Sem internet, o trecho com narração `Pronta` toca normalmente. Um trecho sem narração mostra um aviso de que precisa de conexão para ser gerado. Decidido pelo Matheus em 10/11/2026.
 
 ### O que NÃO tem, de propósito
 
