@@ -75,7 +75,7 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 ### Login e teste
 
 - "Já tenho conta" abre o painel **Entrar · Já tenho conta** por cima de **Boas-vindas**, com o título "Entrar na sua conta", o texto "Use a mesma conta Apple ou Google que você usou antes." e "Agora não".
-- Antes do login, a **Biblioteca** mostra só o livro importado e o convite "Continue ouvindo <título>", com o texto "Entre na sua conta para continuar de onde parou." e o botão "Continuar", que abre **Fim dos 5 minutos · Entrar**.
+- Antes do login, a **Biblioteca** mostra só o livro importado e o convite "Continue ouvindo <título>", com o texto "Entre na sua conta para continuar de onde parou." e o botão "Continuar", que abre **Fim dos 5 minutos · Entrar**. No topo, o botão de importar também abre **Fim dos 5 minutos · Entrar**, e o botão de conta abre **Entrar · Já tenho conta**.
 
 - Para quem ainda não tem conta, o login aparece só quando o leitor decide continuar depois dos 5 minutos.
 - Quem já tem conta (por exemplo, num iPhone novo) entra pelo botão "Já tenho conta" em **Boas-vindas**. O que pode fazer depois de entrar depende do estado da assinatura, como em qualquer outro aparelho. Decidido pelo Matheus em 10/11/2026.
