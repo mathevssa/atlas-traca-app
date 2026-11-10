@@ -4,7 +4,7 @@ titulo: Livro
 definicao: Um arquivo de ebook que o leitor importou para o Traça e que aparece na biblioteca, pronto para virar audiolivro.
 status: Clarificação
 alertas: []
-versao: 1.1
+versao: 1.2
 aprovado:
 ---
 
@@ -24,7 +24,7 @@ aprovado:
 | Formato | Sim | EPUB, PDF, MOBI, AZW3, FB2, TXT ou RTF, sem DRM. A lista mora nos princípios da [Constituição](../constituicao.md#princípios). |
 | Arquivo original | Sim | Cópia do arquivo que o leitor escolheu. Onde fica guardado (só no aparelho ou também no iCloud do leitor): A definir. |
 | Impressão digital | Sim | Identifica o conteúdo do arquivo, para reconhecer quando o mesmo livro é importado de novo. Calculada pelo app na importação. |
-| Capítulos | Sim | Lista ordenada, lida do sumário do arquivo. Serve para o leitor navegar. Como tratar um arquivo sem sumário (comum em PDF e TXT): A definir. |
+| Capítulos | Não | Lista ordenada, lida do sumário do arquivo. Serve só para o leitor navegar: a narração é gerada em trechos e não depende dela. Arquivo sem sumário (comum em PDF e TXT) fica sem lista de capítulos. Decidido pelo Matheus em 10/11/2026. |
 | Posição atual | Sim | O ponto do livro onde a narração parou. Começa no início do livro. A tela de texto sempre abre nessa mesma posição, e o play sempre continua dela. |
 | Marcações | Não | Lista de pontos do livro que o leitor salvou para voltar depois. Cada marcação guarda a posição, o capítulo e a data em que foi criada. A marcação não tem nota nem cor e não serve para mais nada além de voltar ao ponto. Decidido pelo Matheus em 10/11/2026. |
 | Importado em | Sim | Data e hora da importação, gerada pelo app. |
