@@ -49,6 +49,14 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - Importar funciona pelo botão da **Biblioteca** e pelo "Compartilhar" do iOS. Os dois caminhos dão o mesmo resultado.
 - O leitor pode importar vários arquivos de uma vez pelo seletor do iOS. Cada um vira um card **Importando**.
 - Importar não gera narração. A voz só é gerada quando o leitor dá play.
+
+### Mensagens
+
+- DRM: "Este livro tem proteção contra cópia (DRM) e não abre fora da loja onde foi comprado. Tente um arquivo sem proteção."
+- Arquivo corrompido: "Não conseguimos abrir este arquivo. Ele pode estar danificado. Tente baixar de novo."
+- Formato não aceito: "O Traça ainda não abre esse tipo de arquivo. Ele abre EPUB, PDF, MOBI, AZW3, FB2, TXT e RTF."
+- Livro repetido: "Este livro já está na sua biblioteca."
+- **Excluir livro**: título "Excluir este livro?", texto "As marcações e o áudio já preparado também serão apagados.", botões "Excluir" e "Cancelar".
 - **Excluir livro** sempre explica que as marcações e o áudio já gerado também serão apagados.
 - Com a assinatura expirada, o botão de importar leva ao paywall de [Assinar o Traça](assinar-o-traca.md). Excluir continua liberado.
 
@@ -81,10 +89,6 @@ A definir no design.
 
 - Coleções, pastas, etiquetas e busca na biblioteca. Voltam quando a biblioteca de um leitor típico passar de umas 30 obras.
 - Editar título, autor ou capa.
-
-## Definições pendentes
-
-- Texto literal das mensagens de erro de importação (DRM, corrompido, formato não aceito). · Matheus, na rodada de design.
 
 ## Fluxos conectados
 

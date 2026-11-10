@@ -69,12 +69,12 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 ### Voz
 
 - **Vozes** lista as vozes em português do Brasil, cada uma com uma amostra curta para ouvir antes de escolher.
-- Trocar a voz no meio do livro vale a partir do próximo capítulo, e o app avisa isso na hora da troca. As regras moram na [Narração](../objetos/narracao.md#atributos).
+- Trocar a voz no meio do livro vale a partir do próximo capítulo, e o app avisa isso na hora da troca: "A nova voz começa no próximo capítulo." As regras moram na [Narração](../objetos/narracao.md#atributos).
 - A voz escolhida vale para os próximos livros também.
 
 ### Marcações
 
-- Marcar salva o ponto atual na hora, sem pedir confirmação, e mostra um aviso curto.
+- Marcar salva o ponto atual na hora, sem pedir confirmação, e mostra o aviso "Marcação salva".
 - **Marcações** mostra, para cada ponto, o capítulo, a frase de onde começa e a data.
 - Excluir uma marcação é deslizar a linha.
 
@@ -84,7 +84,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 
 - **Ideal:** texto com a palavra falada destacada, barra de progresso do capítulo e controles.
 - **Vazio:** não se aplica.
-- **Erro:** a geração falhou depois das 3 tentativas: mensagem com "Tentar de novo". Sem internet e sem trecho pronto: aviso de que a voz precisa de conexão.
+- **Erro:** a geração falhou depois das 3 tentativas: "A voz não conseguiu preparar este trecho agora.", com o botão "Tentar de novo". Sem internet e sem trecho pronto: "Sem internet. O que já foi preparado continua tocando. Para o resto, conecte-se."
 - **Parcial:** o trecho atual está pronto e o próximo ainda está sendo gerado: nada aparece, a não ser que a voz chegue ao fim do trecho antes; aí mostra "Preparando a voz".
 - **Carregando:** "Preparando a voz" no lugar do botão de play.
 
@@ -111,17 +111,13 @@ A definir no design.
 
 ## Fora do escopo
 
-- Leitura silenciosa, ajuste de fonte e de cor do texto. O texto só acompanha a voz.
+- Leitura silenciosa, ajuste de tamanho, fonte e cor do texto. O texto só acompanha a voz. Decidido pelo Matheus em 10/11/2026.
 - Destaques de texto e anotações.
 - CarPlay e Apple Watch. Voltam depois da V1, se o uso no carro aparecer nas métricas.
 
 ## Rabbit holes
 
 - Fazer o texto acompanhar a voz em PDF, onde o texto às vezes sai fora de ordem ao ser extraído. Destrava com um teste em PDFs reais antes do desenvolvimento.
-
-## Definições pendentes
-
-- Se o texto do player tem algum ajuste de tamanho, por acessibilidade, mesmo sem ser um leitor. · Matheus
 
 ## Fluxos conectados
 

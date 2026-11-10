@@ -20,6 +20,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 
 - **Boas-vindas** · primeira abertura do app.
 - **Escolher o primeiro livro** · o seletor de arquivos do iOS, aberto pelo app.
+- **Escolher a voz** · as vozes em português do Brasil, com amostra, antes do primeiro play.
 - **Ouvir os 5 minutos** · o player, com o contador do tempo grátis.
 - **Fim dos 5 minutos** · o convite para continuar ouvindo.
 - **Entrar** · login com a Apple ou o Google.
@@ -38,17 +39,18 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 
 ## Fluxo
 
-1. O leitor abre o app pela primeira vez e vê **Boas-vindas**, com um botão para escolher um livro.
-2. O app abre o seletor de arquivos do iOS. O leitor também pode chegar aqui pelo "Compartilhar" de outro app, e aí o passo 2 é pulado.
+1. O leitor abre o app pela primeira vez e vê **Boas-vindas**, com dois caminhos: escolher um livro dele ou ouvir o livro de amostra.
+2. Escolhendo um livro dele, o app abre o seletor de arquivos do iOS. O leitor também pode chegar aqui pelo "Compartilhar" de outro app, e aí este passo é pulado.
 3. O livro é importado.
-   - Deu certo: o player abre e a narração começa sozinha, do início do livro.
+   - Deu certo: segue para **Escolher a voz**.
    - Deu errado (DRM, arquivo corrompido, formato não aceito): o leitor vê o motivo e volta para **Boas-vindas** para escolher outro arquivo.
-4. O leitor ouve com o texto acompanhando. Um contador mostra quanto resta dos 5 minutos grátis.
-5. Os 5 minutos acabam. A voz para no fim da frase e aparece **Fim dos 5 minutos**, com o botão para continuar.
-6. O leitor entra com a Apple ou o Google em **Entrar**.
+4. Em **Escolher a voz**, o leitor ouve a amostra de cada voz e escolhe uma. Ao confirmar, o player abre e a narração começa sozinha, do início do livro.
+5. O leitor ouve com o texto acompanhando. Um contador mostra quanto resta dos 5 minutos grátis.
+6. Os 5 minutos acabam. A voz para no fim da frase e aparece **Fim dos 5 minutos**, com o botão para continuar.
+7. O leitor entra com a Apple ou o Google em **Entrar**.
    - Desistiu do login: volta ao player, que fica parado no ponto onde a voz parou.
-7. **Começar o teste** mostra o plano anual pré-selecionado, o mensal e a linha do tempo do teste (hoje, lembrete no dia 5, cobrança no dia 7).
-8. O leitor confirma pela App Store.
+8. **Começar o teste** mostra o plano anual pré-selecionado, o mensal e a linha do tempo do teste (hoje, lembrete no dia 5, cobrança no dia 7).
+9. O leitor confirma pela App Store.
    - Confirmou: a narração continua do ponto onde parou.
    - Desistiu: volta ao player parado. O livro e a conta continuam lá.
 
@@ -61,12 +63,19 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - Os 5 minutos contam o áudio gerado, não o tempo ouvido: voltar e ouvir de novo não gasta o tempo grátis.
 - Os 5 minutos grátis valem uma vez por aparelho. Reinstalar o app não renova o tempo.
 
+### Voz e livro de amostra
+
+- O leitor escolhe a voz antes do primeiro play. A primeira voz da lista vem pré-selecionada, para quem só quer confirmar. Decidido pelo Matheus em 10/11/2026.
+- O livro de amostra é um texto de domínio público, com a narração já gerada pelo Traça em todas as vozes. Ouvir a amostra não gasta os 5 minutos grátis e não tem limite de tempo. Decidido pelo Matheus em 10/11/2026.
+- O livro de amostra não conta como o livro importado antes do login: depois de ouvir a amostra, o leitor ainda pode importar um livro dele.
+
 ### Login e teste
 
 - O login aparece só quando o leitor decide continuar depois dos 5 minutos.
 - Ao fazer login, o livro, a posição e a narração já gerada passam para a conta sem o leitor fazer nada.
 - O pedido de permissão de notificação vem junto com o lembrete do dia 5 em **Começar o teste**, com o texto dizendo para que serve.
 - **Começar o teste** sempre mostra "Cancele quando quiser nos Ajustes do iPhone" e o link "Restaurar compras".
+- A linha do tempo do teste diz, nesta ordem: "Hoje: acesso completo, sem cobrança", "Dia 5: a gente te lembra que o teste está acabando" e "Dia 7: começa a cobrança. Cancele antes, se quiser".
 
 ## Estados de UI
 
@@ -109,12 +118,11 @@ A definir no design.
 ## Fora do escopo
 
 - Tutorial em várias telas antes de importar. O valor aparece ouvindo, não lendo explicação.
-- Escolher a voz antes de ouvir. O primeiro play usa a voz padrão, e a troca fica no player.
 
 ## Definições pendentes
 
-- Qual é a voz padrão do primeiro play. · Matheus, depois do teste de escuta.
-- Se a tela **Boas-vindas** oferece um livro de amostra de domínio público para quem não tem um arquivo à mão. · Matheus
+- Qual livro de domínio público é a amostra, e de que tamanho. · Matheus
+- Em que ordem as vozes aparecem em **Escolher a voz**. · Matheus, depois do teste de escuta.
 
 ## Fluxos conectados
 

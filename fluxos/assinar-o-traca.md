@@ -48,7 +48,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - O preço anual cobrado aparece como principal, e o equivalente por mês aparece como informação secundária, como exige a App Store.
 - **Assinar** sempre mostra "Cancele quando quiser nos Ajustes do iPhone", "Restaurar compras", os Termos e a Privacidade.
 - Quem já usou o teste grátis na conta Apple não vê oferta de teste. O botão diz "Assinar".
-- Durante o teste, o app manda um lembrete no dia 5, se o leitor permitiu notificações.
+- Durante o teste, o app manda um lembrete no dia 5, se o leitor permitiu notificações: "Seu teste do Traça acaba em 2 dias. Para continuar ouvindo, não precisa fazer nada."
 - Em carência, o player toca o que já foi gerado e mostra **Cobrança não passou** quando o leitor tenta gerar um trecho novo.
 
 ## Estados de UI
@@ -77,10 +77,6 @@ A definir no design.
 
 - Pagamento fora da App Store, como Pix ou link externo. Pode voltar se a comissão da Apple pesar no resultado.
 - Oferta para quem cancelou (win-back). Volta quando houver base de ex-assinantes.
-
-## Definições pendentes
-
-- Texto literal da linha do tempo do teste e do lembrete do dia 5. · Matheus, na rodada de design.
 
 ## Fluxos conectados
 
