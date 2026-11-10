@@ -42,7 +42,3 @@ Referência de mercado mostra o que outro produto escolheu e nunca vira regra so
 - **Nasce nativo no iPhone.** A primeira versão é um app nativo só de iPhone, sem layout próprio de iPad, porque é no celular que as pessoas mais testam e assinam coisas novas, e porque ouvir com a tela bloqueada, ouvir offline e abrir arquivos do iOS funcionam melhor em app nativo do que em web app. Mac e web vêm depois. Decidido pelo Matheus em 10/11/2026.
 - **O leitor entra com a conta Apple ou Google.** O Traça tem conta própria, sem senha própria: o login é feito com Entrar com a Apple ou com o Google. O login só é pedido ao começar o teste grátis: importar um livro e ouvir os 5 minutos grátis funcionam sem conta. Isso prepara o produto para Android e web e permite falar com quem cancelou. Excluir a conta pelo próprio app é obrigatório, como exige a App Store. Decidido pelo Matheus em 10/11/2026.
 - **O leitor só lê o que é dele.** O Traça abre arquivos que o usuário importa e não distribui, não vende e não vem com livro protegido por direito autoral. Decidido pelo Matheus em 10/11/2026.
-
-## Definições pendentes
-
-- Onde ficam os arquivos dos livros: no iCloud do leitor ou num servidor do Traça, sabendo que o iCloud não existe no Android. · Matheus

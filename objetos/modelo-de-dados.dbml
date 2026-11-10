@@ -3,6 +3,7 @@
 
 Table livro {
   id uuid [pk]
+  conta_id uuid [ref: > conta.id, note: 'vazio antes do primeiro login']
   titulo text [not null, note: 'metadados do arquivo; sem título, nome do arquivo']
   autor text
   capa image
@@ -47,8 +48,19 @@ Table narracao {
 
 Table assinatura {
   id uuid [pk]
+  conta_id uuid [not null, unique, ref: - conta.id]
   plano text [not null, note: 'Plano mensal | Plano anual']
   estado text [not null, note: 'Em teste | Ativa | Em carência | Expirada']
   fim_do_periodo timestamp [not null]
   renovacao_automatica bool [not null]
+}
+
+Table conta {
+  id uuid [pk]
+  provedor text [not null, note: 'Apple | Google']
+  id_do_provedor text [not null]
+  email text [not null]
+  nome text
+  aceita_emails bool [not null, default: false]
+  criada_em timestamp [not null]
 }

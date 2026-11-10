@@ -4,7 +4,7 @@ titulo: Narração
 definicao: O áudio de um trecho de cerca de 5 minutos de um livro, lido pela voz de IA. É gerado sob demanda, um trecho de cada vez, para o Traça só pagar pelo que o leitor de fato ouve.
 status: Clarificação
 alertas: []
-versao: 1.5
+versao: 1.6
 aprovado:
 ---
 
@@ -20,7 +20,7 @@ aprovado:
 |---|---|---|
 | Livro | Sim | O [Livro](livro.md) a que pertence. |
 | Trecho | Sim | O pedaço do livro que esta narração lê: cerca de 5 minutos de áudio, sempre cortado no fim de um parágrafo, em qualquer formato. O trecho não depende dos capítulos do livro, que servem só para navegar. Existe no máximo uma narração por trecho. Decidido pelo Matheus em 10/11/2026. |
-| Voz | Sim | A voz de IA usada, gerada pela Inworld, que devolve o tempo de cada palavra junto com o áudio. O modelo padrão é o TTS-2 Flash, a confirmar num teste de escuta contra o TTS-2. O leitor escolhe a voz entre todas as vozes em português do Brasil que a Inworld oferecer. Decidido pelo Matheus em 10/11/2026. O que acontece com os trechos já gerados quando o leitor troca de voz no meio de um livro: A definir. |
+| Voz | Sim | A voz de IA usada, gerada pela Inworld, que devolve o tempo de cada palavra junto com o áudio. O modelo padrão é o TTS-2 Flash, a confirmar num teste de escuta contra o TTS-2. O leitor escolhe a voz entre todas as vozes em português do Brasil que a Inworld oferecer. Decidido pelo Matheus em 10/11/2026. Se o leitor troca de voz no meio de um livro, a voz nova vale a partir do próximo capítulo, para a voz não mudar no meio de um capítulo, e o app avisa o leitor disso na hora da troca. Decidido pelo Matheus em 10/11/2026. Em livro sem lista de capítulos, quando a voz nova começa: A definir. |
 | Áudio | Sim, a partir de `Pronta` | O arquivo de áudio gerado, guardado no aparelho. |
 | Marcação de tempo | Sim, a partir de `Pronta` | O momento do áudio em que cada palavra ou frase é dita, para o texto na tela acompanhar a voz. |
 | Duração | Sim, a partir de `Pronta` | Calculada a partir do áudio. |
@@ -66,8 +66,8 @@ Decidido pelo Matheus em 10/11/2026. A narração já gerada continua guardada q
 
 ## Usado nos fluxos
 
-- Ouvir um livro (a escrever) · cobre toda a geração e a reprodução.
-- Começar a usar o Traça (a escrever) · cobre os 5 minutos grátis antes do teste, que equivalem ao primeiro trecho.
+- [Ouvir um livro](../fluxos/ouvir-um-livro.md) · cobre toda a geração e a reprodução.
+- [Começar a usar o Traça](../fluxos/comecar-a-usar-o-traca.md) · cobre os 5 minutos grátis antes do teste, que equivalem ao primeiro trecho.
 
 ## Faz parte de
 

@@ -57,13 +57,13 @@ O que cada estado libera para o leitor está na tabela de permissões do [Livro]
 
 | Relação | Cardinalidade | Regra |
 |---|---|---|
-| Assinatura **pertence à** conta Apple do leitor | 1:1 | Vale em qualquer iPhone com a mesma conta Apple, depois de restaurar a compra. |
+| Assinatura **pertence à** [Conta](conta.md) do Traça | 1:1 | A compra é feita com a conta Apple do iPhone e fica ligada à Conta do Traça que estava logada na hora da compra. Vale em qualquer iPhone em que o leitor entre com a mesma Conta. |
 | Assinatura **libera** os [Livros](livro.md) | 1:N | A assinatura não guarda livros. Quando expira, os livros ficam, e só o uso é bloqueado. |
 
 ## Usado nos fluxos
 
-- Começar a usar o Traça (a escrever) · cobre `— → Em teste`.
-- Assinar o Traça (a escrever) · cobre `Expirada → Ativa`, a escolha do plano e a restauração da compra.
+- [Começar a usar o Traça](../fluxos/comecar-a-usar-o-traca.md) · cobre `— → Em teste`.
+- [Assinar o Traça](../fluxos/assinar-o-traca.md) · cobre `Expirada → Ativa`, a carência, a escolha do plano e a restauração da compra.
 
 ## Faz parte de
 

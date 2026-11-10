@@ -6,14 +6,14 @@ A especificação do Traça, um app de iOS para ler e ouvir os livros do própri
 |---|---|
 | **Fontes** | Decisões do Matheus, registradas neste repositório. A hierarquia está na [Constituição](constituicao.md). |
 | **Design** | [Canvas da marca](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL) · telas do app ainda não desenhadas |
-| **Versão atual** | `v0.1` · 10/11/2026 · abertura do Atlas, com a Constituição e a marca |
+| **Versão atual** | `v0.2` · 10/11/2026 · objetos e fluxos da V1 em Clarificação, ainda sem aprovação |
 
 ## Base
 
 - [Constituição](constituicao.md) · o que o produto é, para quem, os princípios e a hierarquia das fontes.
 - Visão geral · escrita por último, quando houver três ou mais fluxos.
-- [Objetos](objetos/README.md) · as coisas do app e suas regras: Livro, Narração e Assinatura.
-- Fluxos · o caminho do leitor, tela a tela. A definir, depois dos objetos.
+- [Objetos](objetos/README.md) · as coisas do app e suas regras: Livro, Narração, Assinatura e Conta.
+- [Fluxos](fluxos/README.md) · o caminho do leitor, do primeiro livro à conta.
 
 ## Medida e marca
 
