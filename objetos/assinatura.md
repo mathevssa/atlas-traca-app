@@ -4,7 +4,7 @@ titulo: Assinatura
 definicao: O direito do leitor de usar o Traça, comprado pela App Store, com teste grátis de 7 dias e cobrança mensal ou anual depois.
 status: Clarificação
 alertas: []
-versao: 1.2
+versao: 1.3
 aprovado:
 ---
 
@@ -32,7 +32,7 @@ Antes de começar o teste, o leitor não tem assinatura. Nessa situação ele po
 
 | De | Evento | Para | Quem | Efeitos |
 |---|---|---|---|---|
-| — | Começar o teste grátis, com o cartão cadastrado na App Store | `Em teste` | Leitor | Libera tudo por 7 dias. |
+| — | Começar o teste grátis, com o cartão cadastrado na App Store | `Em teste` | Leitor | Libera tudo por 7 dias, com um teto de 3 horas de narração gerada no teste inteiro. Decidido pelo Matheus em 10/11/2026. |
 | `Em teste` | Fim dos 7 dias com a renovação ligada | `Ativa` | App Store | A App Store cobra o primeiro período do plano escolhido. |
 | `Em teste` | Fim dos 7 dias com a renovação desligada | `Expirada` | App Store | Bloqueia ler, ouvir e importar. A biblioteca continua visível e permite excluir livros. |
 | `Ativa` | Fim do período com a renovação ligada | `Ativa` | App Store | Cobra o período seguinte. Nada muda para o leitor. |
