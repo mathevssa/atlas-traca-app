@@ -3,8 +3,8 @@ tipo: objeto
 titulo: Narração
 definicao: O áudio de um trecho de cerca de 5 minutos de um livro, lido pela voz de IA. É gerado sob demanda, um trecho de cada vez, para o Traça só pagar pelo que o leitor de fato ouve.
 status: Clarificação
-alertas: [Travado]
-versao: 1.2
+alertas: []
+versao: 1.3
 aprovado:
 ---
 
@@ -20,7 +20,7 @@ aprovado:
 |---|---|---|
 | Livro | Sim | O [Livro](livro.md) a que pertence. |
 | Trecho | Sim | O pedaço do livro que esta narração lê: cerca de 5 minutos de áudio, sempre cortado no fim de um parágrafo, em qualquer formato. O trecho não depende dos capítulos do livro, que servem só para navegar. Existe no máximo uma narração por trecho. Decidido pelo Matheus em 10/11/2026. |
-| Voz | Sim | A voz de IA usada. Qual serviço de voz e quantas vozes: A definir, em pesquisa. |
+| Voz | Sim | A voz de IA usada, gerada pelo Inworld TTS-2, que devolve o tempo de cada palavra junto com o áudio. Decidido pelo Matheus em 10/11/2026. Quantas vozes o leitor pode escolher: A definir. |
 | Áudio | Sim, a partir de `Pronta` | O arquivo de áudio gerado, guardado no aparelho. |
 | Marcação de tempo | Sim, a partir de `Pronta` | O momento do áudio em que cada palavra ou frase é dita, para o texto na tela acompanhar a voz. |
 | Duração | Sim, a partir de `Pronta` | Calculada a partir do áudio. |
