@@ -5,7 +5,7 @@ ator: leitor com o teste ou a assinatura ativos
 job: ouvir o livro com uma voz natural, acompanhando o texto, e controlar a narração sem atrito
 status: Desenhado
 alertas: []
-versao: 2.0
+versao: 2.1
 aprovado: 2026-11-10
 prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
@@ -28,6 +28,11 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - **OUV-010 · Timer de sono** · opções do timer.
 - **OUV-011 · Erro na voz** · aviso de falha na geração com "Tentar de novo".
 - **OUV-012 · Sem internet** · aviso de sem internet.
+- **OUV-013 · Player · timer ligado** · o botão Timer mostrando o tempo que falta.
+- **OUV-014 · Marcação salva** · o aviso depois de marcar.
+- **OUV-015 · Player · preparando a voz** · ao tocar numa frase ainda não gerada.
+- **OUV-016 · Fim do livro** · o aviso de que o livro acabou.
+- **OUV-017 · Capítulos · livro sem capítulos** · a lista com um capítulo só.
 
 ## Job to be Done
 
@@ -75,6 +80,11 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - Trocar a voz no meio do livro vale a partir do próximo capítulo, e o app avisa isso na hora da troca: "A nova voz começa no próximo capítulo." As regras moram na [Narração](../objetos/narracao.md#atributos).
 - A voz escolhida vale para os próximos livros também.
 - Depois de uma troca no meio do capítulo, o botão de voz já mostra a voz escolhida, mesmo antes de ela começar a tocar. Decidido pelo Matheus em 10/11/2026.
+
+### Timer e fim do livro
+
+- Com o timer ligado, o botão Timer mostra o tempo que falta (por exemplo, "22 min").
+- Quando o livro acaba, aparece **Fim do livro**, com o título "Você terminou <título>" e dois botões: "Voltar para a biblioteca" (principal) e "Ouvir de novo", que volta a posição para o começo. Na biblioteca, o livro passa a mostrar "Terminado".
 
 ### Marcações
 

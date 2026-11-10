@@ -5,7 +5,7 @@ ator: leitor com conta
 job: ver a assinatura, sair da conta ou apagar tudo quando quiser
 status: Desenhado
 alertas: []
-versao: 2.0
+versao: 2.1
 aprovado: 2026-11-10
 prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
@@ -19,6 +19,9 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - **CON-001 · Conta** · conta, assinatura, notificações, sair e excluir.
 - **CON-002 · Excluir conta** · painel de confirmação.
 - **CON-003 · Excluindo a conta** · o painel durante a exclusão.
+- **CON-004 · Conta · em teste** · a assinatura durante o teste grátis.
+- **CON-005 · Conta · assinatura expirada** · com o botão para assinar.
+- **CON-006 · Excluir conta · sem internet** · o erro, sem apagar nada.
 
 ## Job to be Done
 
@@ -46,6 +49,13 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - Excluir a conta fica dentro do app, a no máximo dois toques da tela **Conta**, como exige a App Store.
 - **Excluir conta** lista o que o leitor perde: os livros, as marcações e onde parou em cada livro. O áudio gerado também é apagado, mas não aparece no texto, porque não importa para quem lê.
 - Sair não apaga nada da conta. Ao entrar de novo, a biblioteca volta.
+
+### Estados da assinatura na Conta
+
+- Ativa: o selo "Ativa" e a próxima cobrança.
+- Em teste: o selo "Teste grátis" e o texto "Seu teste termina em <data>. Depois, <preço do plano>."
+- Expirada: o selo "Expirada", o texto "Sua assinatura terminou em <data>." e o botão "Assinar", que abre **Assinar**.
+- Sem internet ao excluir: "Você está sem internet. Conecte o iPhone para excluir a conta." Nada é apagado.
 
 ### Notificações
 

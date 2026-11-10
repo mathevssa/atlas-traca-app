@@ -5,7 +5,7 @@ ator: leitor que acabou de instalar o app
 job: ouvir o próprio livro em poucos segundos e decidir se vale assinar
 status: Desenhado
 alertas: []
-versao: 2.1
+versao: 2.2
 aprovado: 2026-11-10
 prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
@@ -25,6 +25,8 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - **CMC-007 · Fim dos 5 minutos · Entrar** · painel de login com a Apple ou o Google por cima do livro pausado.
 - **CMC-008 · Começar o teste** · paywall com a linha do tempo do teste e o plano anual marcado.
 - **CMC-009 · Livro de amostra** · player da amostra, com o convite para ouvir um livro do leitor.
+- **CMC-010 · Entrar · Já tenho conta** · login para quem já tem conta.
+- **CMC-011 · Biblioteca antes do login** · a biblioteca com o livro importado e o convite para entrar.
 
 ## Job to be Done
 

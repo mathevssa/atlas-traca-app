@@ -5,7 +5,7 @@ ator: leitor com conta, com o teste acabando, a assinatura expirada ou em carên
 job: continuar ouvindo sem perder nada, pagando de um jeito claro e sem susto
 status: Desenhado
 alertas: []
-versao: 2.0
+versao: 2.1
 aprovado: 2026-11-10
 prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
@@ -20,6 +20,12 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - **ASS-002 · Assinatura expirada** · aviso na biblioteca.
 - **ASS-003 · Cobrança não passou** · aviso no player durante a carência.
 - **ASS-004 · Assinar · carregando preços** · paywall com os planos em esqueleto.
+- **ASS-005 · Assinar · sem internet** · paywall sem conexão.
+- **ASS-006 · Assinatura ativa** · o aviso depois da compra.
+- **ASS-007 · Restaurar · compra restaurada** · o aviso de sucesso.
+- **ASS-008 · Restaurar · nada encontrado** · o alerta.
+- **ASS-009 · Restaurar · de outra conta** · o alerta.
+- **ASS-010 · Lembrete do dia 5** · a notificação na tela bloqueada.
 
 ## Job to be Done
 
@@ -49,6 +55,12 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - **Assinar** sempre mostra "Cancele quando quiser nos Ajustes do iPhone", "Restaurar Compras", os Termos e a Privacidade.
 - Quem já usou o teste grátis na conta Apple não vê oferta de teste. O botão diz "Assinar".
 - Durante o teste, o app manda um lembrete no dia 5, se o leitor permitiu notificações: "Seu teste do Traça acaba em 2 dias. Para continuar ouvindo, não precisa fazer nada."
+- Depois da compra, aparece o aviso "Pronto! Sua assinatura está ativa." onde o leitor estava.
+- "Restaurar Compras" tem três respostas:
+  - deu certo: o aviso "Sua assinatura foi restaurada.";
+  - nada encontrado: o alerta "Nenhuma assinatura encontrada", com o texto "Não encontramos uma assinatura do Traça nesta conta Apple." e o botão "OK";
+  - compra de outra conta do Traça: o alerta "Essa assinatura é de outra conta", com o texto "Ela foi comprada com outra conta do Traça neste iPhone. Entre com aquela conta para usar." e o botão "OK".
+- Sem internet, **Assinar** mostra "Você está sem internet. Conecte o iPhone para assinar." e o botão fica desativado.
 - Em carência, o player toca o que já foi gerado e mostra **Cobrança não passou** quando o leitor tenta gerar um trecho novo.
 
 ## Estados de UI

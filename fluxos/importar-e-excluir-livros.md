@@ -5,7 +5,7 @@ ator: leitor com conta
 job: pôr na biblioteca o livro que quer ouvir e tirar o que não quer mais
 status: Desenhado
 alertas: []
-versao: 2.1
+versao: 2.2
 aprovado: 2026-11-10
 prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
@@ -23,6 +23,10 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - **IMP-005 · Menu do livro** · menu com Excluir livro.
 - **IMP-006 · Excluir livro** · diálogo de confirmação.
 - **IMP-007 · Erro de formato** · aviso de formato não aceito na biblioteca.
+- **IMP-008 · Busca com resultado** · a busca em uso, com os livros encontrados.
+- **IMP-009 · Busca sem resultado** · "Nenhum livro encontrado".
+- **IMP-010 · Erro de importação (DRM)** · aviso de proteção contra cópia na biblioteca.
+- **IMP-011 · Erro · arquivo danificado** · aviso de arquivo danificado na biblioteca.
 
 ## Job to be Done
 
@@ -51,7 +55,7 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - O leitor pode importar vários arquivos de uma vez pelo seletor do iOS. Cada um vira um card **Importando**.
 - Importar não gera narração. A voz só é gerada quando o leitor dá play.
 - **Excluir livro** sempre avisa que as marcações do livro também serão apagadas.
-- A **Biblioteca** tem uma busca por título e autor, logo abaixo do título da tela. O resultado filtra a lista enquanto o leitor digita, sem precisar confirmar. Sem resultado, a tela diz "Nenhum livro encontrado". Decidido pelo Matheus em 10/11/2026.
+- A **Biblioteca** tem uma busca por título e autor, logo abaixo do título da tela. O resultado filtra a lista enquanto o leitor digita, sem precisar confirmar. Enquanto busca, "Continuar ouvindo" some e o botão "Cancelar" aparece ao lado do campo. Sem resultado, a tela diz "Nenhum livro encontrado", com o texto "Confira o nome ou importe o livro." e o botão "Importar livro". Decidido pelo Matheus em 10/11/2026.
 - Com a assinatura expirada, o botão de importar leva ao paywall de [Assinar o Traça](assinar-o-traca.md). Excluir continua liberado.
 
 ### Mensagens
