@@ -95,6 +95,10 @@ As telas usam os componentes do design system do canvas (página "Marca e design
 - **IMP-005** · Menu do livro
 - **IMP-006** · Excluir livro
 - **IMP-007** · Erro de formato
+- **IMP-008** · Busca com resultado
+- **IMP-009** · Busca sem resultado
+- **IMP-010** · Erro de importação (DRM)
+- **IMP-011** · Erro · arquivo danificado
 
 ## Dentro do escopo
 

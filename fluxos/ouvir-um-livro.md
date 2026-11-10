@@ -131,6 +131,11 @@ As telas usam os componentes do design system do canvas (página "Marca e design
 - **OUV-010** · Timer de sono
 - **OUV-011** · Erro na voz
 - **OUV-012** · Sem internet
+- **OUV-013** · Player · timer ligado
+- **OUV-014** · Marcação salva
+- **OUV-015** · Player · preparando a voz
+- **OUV-016** · Fim do livro
+- **OUV-017** · Capítulos · livro sem capítulos
 
 ## Dentro do escopo
 

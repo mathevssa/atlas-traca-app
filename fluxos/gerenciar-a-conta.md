@@ -85,6 +85,9 @@ As telas usam os componentes do design system do canvas (página "Marca e design
 - **CON-001** · Conta
 - **CON-002** · Excluir conta
 - **CON-003** · Excluindo a conta
+- **CON-004** · Conta · em teste
+- **CON-005** · Conta · assinatura expirada
+- **CON-006** · Excluir conta · sem internet
 
 ## Dentro do escopo
 

@@ -128,6 +128,8 @@ As telas usam os componentes do design system do canvas (página "Marca e design
 - **CMC-007** · Fim dos 5 minutos · Entrar
 - **CMC-008** · Começar o teste
 - **CMC-009** · Livro de amostra
+- **CMC-010** · Entrar · Já tenho conta
+- **CMC-011** · Biblioteca antes do login
 
 ## Dentro do escopo
 

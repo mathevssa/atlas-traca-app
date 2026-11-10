@@ -85,6 +85,12 @@ As telas usam os componentes do design system do canvas (página "Marca e design
 - **ASS-002** · Assinatura expirada
 - **ASS-003** · Cobrança não passou
 - **ASS-004** · Assinar · carregando preços
+- **ASS-005** · Assinar · sem internet
+- **ASS-006** · Assinatura ativa
+- **ASS-007** · Restaurar · compra restaurada
+- **ASS-008** · Restaurar · nada encontrado
+- **ASS-009** · Restaurar · de outra conta
+- **ASS-010** · Lembrete do dia 5
 
 ## Dentro do escopo
 
