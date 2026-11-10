@@ -4,7 +4,7 @@ titulo: Conta
 definicao: A identidade do leitor no Traça, criada no primeiro login com a Apple ou o Google. Guarda os livros, as posições, as marcações e a assinatura.
 status: Clarificação
 alertas: []
-versao: 1.2
+versao: 1.3
 aprovado:
 ---
 
@@ -47,7 +47,7 @@ Estados: `Ativa`
 | Relação | Cardinalidade | Regra |
 |---|---|---|
 | Conta **tem** [Livros](livro.md) | 1:N | Vínculo vivo. Excluir a conta apaga os livros. |
-| Conta **tem** uma [Assinatura](assinatura.md) | 1:1 | A assinatura fica ligada à conta que estava logada na compra. O que acontece quando outra Conta do Traça entra no mesmo iPhone com a mesma conta Apple que pagou: A definir. |
+| Conta **tem** uma [Assinatura](assinatura.md) | 1:1 | A assinatura fica ligada à conta que estava logada na compra. Outra Conta do Traça que entra no mesmo iPhone, com a mesma conta Apple que pagou, não ganha acesso: vê a tela de assinar normalmente e, se tocar em "Restaurar Compras", o app avisa que essa assinatura pertence a outra conta do Traça. Decidido pelo Matheus em 10/11/2026. |
 
 ## Usado nos fluxos
 

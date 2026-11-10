@@ -5,7 +5,7 @@ ator: leitor com conta, com o teste acabando, a assinatura expirada ou em carên
 job: continuar ouvindo sem perder nada, pagando de um jeito claro e sem susto
 status: Clarificação
 alertas: []
-versao: 1.1
+versao: 1.2
 aprovado:
 prototipo:
 ---
@@ -41,6 +41,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
    - Confirmou: a assinatura fica `Ativa`, e o leitor volta para onde estava.
    - Desistiu: volta para onde estava, sem nada mudar.
 4. Num iPhone novo, o leitor toca em "Restaurar Compras" e a assinatura volta a valer.
+   - Se a compra encontrada pertence a outra conta do Traça, o app avisa isso e a assinatura não vale para a conta atual. Decidido pelo Matheus em 10/11/2026.
 5. Se a cobrança não passa no fim do período, o leitor vê **Cobrança não passou**, com o título "Não conseguimos renovar sua assinatura" e o texto "Houve um problema com o pagamento. Para continuar ouvindo o livro, atualize a forma de pagamento.", com o link para atualizar o pagamento nos Ajustes do iPhone, e continua ouvindo o que já foi gerado durante a carência.
 
 ## Regras
