@@ -17,7 +17,7 @@ prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL), página "App V1", linha CMC. Aprovado pelo Matheus em 10/11/2026.
 
 - **CMC-001 · Boas-vindas** · três caminhos: escolher um livro do iPhone, ouvir o livro de amostra e "Já tenho conta".
-- **CMC-002 · Importando o primeiro livro** · o botão vira a barra de progresso da importação.
+- **CMC-002 · Importando o primeiro livro** · o botão vira a barra de progresso da importação, com o texto fixo "Importando arquivo…", sem o nome do livro.
 - **CMC-003 · Erro de importação (DRM)** · a mensagem de proteção contra cópia acima do botão.
 - **CMC-004 · Escolher a voz** · lista de vozes com amostra, a primeira já marcada.
 - **CMC-005 · Ouvir os 5 minutos** · player com o contador de tempo grátis.
