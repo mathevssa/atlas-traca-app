@@ -4,7 +4,7 @@ titulo: Conta
 definicao: A identidade do leitor no Traça, criada no primeiro login com a Apple ou o Google. Guarda os livros, as posições, as marcações e a assinatura.
 status: Clarificação
 alertas: []
-versao: 1.1
+versao: 1.2
 aprovado:
 ---
 
@@ -22,7 +22,7 @@ aprovado:
 | Identificador do provedor | Sim | O identificador que a Apple ou o Google devolve. É o que reconhece o leitor no próximo login. |
 | E-mail | Sim | O e-mail que o provedor entrega. Com a Apple, pode ser o e-mail oculto que ela gera, e o Traça aceita esse e-mail como qualquer outro. |
 | Nome | Não | O nome que o provedor entrega, quando entrega. |
-| Aceita receber e-mails | Sim | Começa desligado. Só com ele ligado o Traça manda e-mail que não seja sobre a conta ou a assinatura. Onde o leitor liga essa opção: A definir. |
+| Aceita receber e-mails | Sim | Começa desligado. Só com ele ligado o Traça manda e-mail que não seja sobre a conta ou a assinatura. O leitor liga e desliga na tela **Conta**, em Notificações. Decidido pelo Matheus em 10/11/2026. |
 | Criada em | Sim | Data e hora do primeiro login. |
 
 ## Ciclo de vida

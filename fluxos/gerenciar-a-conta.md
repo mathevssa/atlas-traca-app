@@ -5,7 +5,7 @@ ator: leitor com conta
 job: ver a assinatura, sair da conta ou apagar tudo quando quiser
 status: Clarificação
 alertas: []
-versao: 1.1
+versao: 1.2
 aprovado:
 prototipo:
 ---
@@ -33,7 +33,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 ## Fluxo
 
 1. O leitor abre **Conta** pela biblioteca.
-2. **Conta** mostra o e-mail, o provedor (Apple ou Google), o estado da assinatura e a data da próxima cobrança ou do fim do acesso.
+2. **Conta** mostra o e-mail, o provedor (Apple ou Google), o estado da assinatura, a data da próxima cobrança ou do fim do acesso e as notificações.
 3. Ações:
    - **Gerenciar assinatura** abre os Ajustes de assinaturas do iPhone.
    - **Sair** encerra a conta neste aparelho, sem confirmação, e volta para **Boas-vindas**.
@@ -47,6 +47,13 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - Excluir a conta fica dentro do app, a no máximo dois toques da tela **Conta**, como exige a App Store.
 - **Excluir conta** lista o que o leitor perde: os livros, as marcações e onde parou em cada livro. O áudio gerado também é apagado, mas não aparece no texto, porque não importa para quem lê.
 - Sair não apaga nada da conta. Ao entrar de novo, a biblioteca volta.
+
+### Notificações
+
+- **Avisos no iPhone** liga e desliga as notificações do Traça, como o lembrete do fim do teste. Se o leitor negou a permissão no iOS, ligar abre os Ajustes do iPhone, porque só lá dá para mudar.
+- **Novidades por e-mail** começa desligado e só com ele ligado o Traça manda e-mail que não seja sobre a conta ou a assinatura.
+
+Decidido pelo Matheus em 10/11/2026.
 
 ## Estados de UI
 
@@ -68,7 +75,7 @@ A definir no design.
 
 ## Dentro do escopo
 
-- Ver a conta e a assinatura, sair e excluir a conta.
+- Ver a conta e a assinatura, ajustar as notificações, sair e excluir a conta.
 
 ## Fora do escopo
 
