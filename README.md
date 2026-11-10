@@ -19,3 +19,19 @@ A especificação do Traça, um app de iOS para ler e ouvir os livros do própri
 
 - [Métricas e eventos da jornada](metricas.md) · o que medimos e para quê.
 - [Guia de marca](marca.md) · nome, cores, tipografia e ícone.
+
+## Pendências da entrega
+
+O que fica para resolver durante o desenvolvimento e antes de publicar na App Store. Quem desenvolve é o Claude, e cada item volta para o Matheus quando precisar de decisão.
+
+| Pendência | Quando | Dono |
+|---|---|---|
+| Teste de escuta da voz: Inworld TTS-2 Flash contra o TTS-2, com trechos reais em sequência. Define o modelo padrão e a ordem das vozes em [Escolher a voz](fluxos/comecar-a-usar-o-traca.md#definições-pendentes). | Antes de fechar o servidor de voz | Claude prepara, Matheus decide |
+| Trocar os nomes de voz de exemplo (Clara, Davi, Helena, Rafael) pelas vozes reais em português do Brasil da Inworld. | Depois do teste de escuta | Claude |
+| Trocar os logos de referência pelos componentes oficiais: o botão nativo de Entrar com a Apple e o asset oficial do Google. | No desenvolvimento do login | Claude |
+| Confirmar o livro de amostra (sugestão: *O Alienista*) e gerar a narração dele em todas as vozes. | Antes da publicação | Matheus confirma, Claude gera |
+| Conferir na App Store se a faixa de R$ 429,90 existe para o Plano anual; se não, usar R$ 399,90. | Ao cadastrar os produtos na App Store | Claude |
+| Consulta jurídica sobre direito autoral (converter o livro do usuário em áudio e guardar o arquivo no servidor do Traça) e LGPD (texto enviado para a Inworld). | Antes da publicação | Matheus |
+| Política de privacidade e Termos de uso, com o que a consulta jurídica definir. | Antes da publicação | Claude escreve, Matheus aprova |
+| Levar os fluxos de Desenhado para Pronto p/ dev, conferindo cada tela contra as regras do fluxo. | Antes de programar cada fluxo | Claude |
+

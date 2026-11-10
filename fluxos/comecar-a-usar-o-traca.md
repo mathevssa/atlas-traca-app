@@ -134,7 +134,7 @@ As telas usam os componentes do design system do canvas (página "Marca e design
 
 ## Definições pendentes
 
-- Qual livro de domínio público é a amostra, e de que tamanho. · Matheus
+- Qual livro de domínio público é a amostra. Sugestão do Claude: *O Alienista*, de Machado de Assis (novela curta, cerca de 3 horas de narração, 13 capítulos, conhecida de quase todo brasileiro). Gerar a narração dele em todas as vozes custa pouco, porque é feito uma vez só. · Matheus confirma.
 - Em que ordem as vozes aparecem em **Escolher a voz**. · Matheus, depois do teste de escuta.
 
 ## Fluxos conectados
