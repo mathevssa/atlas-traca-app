@@ -8,6 +8,7 @@ Table livro {
   capa image
   formato text [not null, note: 'EPUB | PDF | MOBI | AZW3 | FB2 | TXT | RTF']
   arquivo_original file [not null]
+  impressao_digital text [not null, note: 'reconhece o mesmo livro importado de novo']
   posicao_atual position [not null]
   importado_em timestamp [not null]
   aberto_em timestamp
@@ -33,7 +34,9 @@ Table marcacao {
 
 Table narracao {
   id uuid [pk]
-  capitulo_id uuid [not null, unique, ref: - capitulo.id]
+  livro_id uuid [not null, ref: > livro.id]
+  parte text [not null, note: 'capítulo inteiro ou trecho de tamanho fixo: a definir']
+  marcacao_de_tempo json [note: 'momento do áudio de cada palavra ou frase']
   voz text [not null]
   audio file
   duracao interval
@@ -44,7 +47,7 @@ Table narracao {
 Table assinatura {
   id uuid [pk]
   plano text [not null, note: 'Plano mensal | Plano anual']
-  estado text [not null, note: 'Em teste | Ativa | Expirada']
+  estado text [not null, note: 'Em teste | Ativa | Em carência | Expirada']
   fim_do_periodo timestamp [not null]
   renovacao_automatica bool [not null]
 }

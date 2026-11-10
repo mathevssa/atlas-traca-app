@@ -4,7 +4,7 @@ titulo: Assinatura
 definicao: O direito do leitor de usar o Traça, comprado pela App Store, com teste grátis de 7 dias e cobrança mensal ou anual depois.
 status: Clarificação
 alertas: []
-versao: 1.0
+versao: 1.1
 aprovado:
 ---
 
@@ -26,7 +26,9 @@ aprovado:
 
 ## Ciclo de vida
 
-Estados: `Em teste` · `Ativa` · `Expirada`
+Estados: `Em teste` · `Ativa` · `Em carência` · `Expirada`
+
+Antes de começar o teste, o leitor não tem assinatura. Nessa situação ele pode importar livros e gerar até 5 minutos de narração no total, como dizem as permissões do [Livro](livro.md#permissões) e da [Narração](narracao.md#permissões).
 
 | De | Evento | Para | Quem | Efeitos |
 |---|---|---|---|---|
@@ -35,7 +37,9 @@ Estados: `Em teste` · `Ativa` · `Expirada`
 | `Em teste` | Fim dos 7 dias com a renovação desligada | `Expirada` | App Store | Bloqueia ler, ouvir e importar. A biblioteca continua visível e permite excluir livros. |
 | `Ativa` | Fim do período com a renovação ligada | `Ativa` | App Store | Cobra o período seguinte. Nada muda para o leitor. |
 | `Ativa` | Fim do período com a renovação desligada | `Expirada` | App Store | O mesmo efeito da expiração do teste. |
-| `Ativa` | Cobrança recusada no fim do período | A definir | App Store | Se o leitor mantém acesso enquanto a App Store tenta cobrar de novo (período de carência): A definir. |
+| `Ativa` | Cobrança recusada no fim do período | `Em carência` | App Store | O leitor continua ouvindo o que já foi gerado e mantém a biblioteca, mas não gera narração nova. O app avisa que a cobrança não passou. Decidido pelo Matheus em 10/11/2026. |
+| `Em carência` | A App Store consegue cobrar | `Ativa` | App Store | Tudo volta a ser liberado. |
+| `Em carência` | Fim da carência sem cobrança | `Expirada` | App Store | O mesmo efeito da expiração do teste. A carência é a da App Store, de 16 dias. |
 | `Expirada` | Assinar de novo | `Ativa` | Leitor | Libera tudo de novo. Livros, posição, marcações e narrações já geradas continuam onde estavam. Não há novo teste grátis: a App Store dá o teste uma vez por conta Apple. |
 
 ### O que NÃO tem, de propósito
@@ -47,7 +51,7 @@ Estados: `Em teste` · `Ativa` · `Expirada`
 
 ## Permissões
 
-O que cada estado libera para o leitor está na tabela de permissões do [Livro](livro.md#permissões) e da [Narração](narracao.md#permissões). Se o leitor consegue entrar no app sem começar o teste grátis: A definir.
+O que cada estado libera para o leitor está na tabela de permissões do [Livro](livro.md#permissões) e da [Narração](narracao.md#permissões).
 
 ## Relacionamentos
 
