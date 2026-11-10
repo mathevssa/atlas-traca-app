@@ -36,6 +36,10 @@ Um livro aberto, visto de lado como uma curva, com cinco barras de equalizador s
 
 O ícone à esquerda do nome "traça", alinhados pelo centro. Versão principal: fundo Laranja-queimado, ícone Creme com desenho Laranja-queimado, nome em Creme. Versão invertida: fundo Creme, ícone Laranja-queimado com desenho Creme, nome em Laranja-queimado.
 
+## Linguagem visual do app
+
+O app segue o Liquid Glass da Apple (iOS 26). Só a camada de controle vira vidro e flutua sobre o conteúdo: a barra do player, o mini player, os botões do topo, os chips, os painéis que sobem da base, os avisos e o seletor de abas. O conteúdo (texto do livro, capas, listas) não é vidro e passa por baixo dos controles. O laranja continua sólido no play e no botão principal, para o texto manter o contraste. Decidido pelo Matheus em 10/11/2026.
+
 ## Tom de voz
 
 A definir.
