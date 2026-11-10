@@ -4,7 +4,7 @@ titulo: Conta
 definicao: A identidade do leitor no Traça, criada no primeiro login com a Apple ou o Google. Guarda os livros, as posições, as marcações e a assinatura.
 status: Clarificação
 alertas: []
-versao: 1.0
+versao: 1.1
 aprovado:
 ---
 
@@ -32,14 +32,14 @@ Estados: `Ativa`
 | De | Evento | Para | Quem | Efeitos |
 |---|---|---|---|---|
 | — | Primeiro login, ao começar o teste grátis | `Ativa` | Leitor | O livro importado antes do login, a posição dele e a narração já gerada passam para a conta. O arquivo do livro sobe para o servidor. |
-| `Ativa` | Entrar com a mesma conta em outro iPhone | `Ativa` | Leitor | Os livros, as posições e as marcações aparecem no aparelho novo. A narração é gerada de novo conforme o leitor ouve, porque o áudio fica só no aparelho onde foi gerado. |
+| `Ativa` | Entrar com a mesma conta em outro iPhone, pelo "Já tenho conta" | `Ativa` | Leitor | Os livros, as posições e as marcações aparecem no aparelho novo. A narração é gerada de novo conforme o leitor ouve, porque o áudio fica só no aparelho onde foi gerado. |
 | `Ativa` | Sair da conta | `Ativa` | Leitor | O aparelho volta ao estado de antes do login: a biblioteca some dele, e tudo continua guardado na conta. |
 | `Ativa` | Excluir a conta, depois de confirmar | — | Leitor | Apaga os livros, as posições, as marcações e os dados da conta no servidor, e o áudio do aparelho. Antes de confirmar, o app avisa que excluir a conta não cancela a assinatura da App Store e mostra como cancelar. |
 
 ### O que NÃO tem, de propósito
 
 - Não existe senha do Traça. O login é sempre pela Apple ou pelo Google. Decidido pelo Matheus em 10/11/2026.
-- Não existe login antes do teste grátis. Importar o primeiro livro e ouvir os 5 minutos grátis funcionam sem conta. Decidido pelo Matheus em 10/11/2026.
+- Quem ainda não tem conta não precisa entrar antes do teste grátis: importar o primeiro livro e ouvir os 5 minutos grátis funcionam sem conta. Quem já tem conta pode entrar a qualquer momento pelo "Já tenho conta". Decidido pelo Matheus em 10/11/2026.
 - Não existe junção de uma conta Apple com uma conta Google. Quem entra com provedores diferentes tem duas contas separadas.
 
 ## Relacionamentos

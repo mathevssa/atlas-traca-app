@@ -5,7 +5,7 @@ ator: leitor que acabou de instalar o app
 job: ouvir o próprio livro em poucos segundos e decidir se vale assinar
 status: Clarificação
 alertas: []
-versao: 1.1
+versao: 1.2
 aprovado:
 prototipo:
 ---
@@ -38,7 +38,8 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 
 ## Fluxo
 
-1. O leitor abre o app pela primeira vez e vê **Boas-vindas**, com dois caminhos: escolher um livro dele ou ouvir o livro de amostra.
+1. O leitor abre o app pela primeira vez e vê **Boas-vindas**, com três caminhos: escolher um livro dele, ouvir o livro de amostra ou "Já tenho conta".
+   - "Já tenho conta": abre o login com a Apple ou o Google e, depois de entrar, leva à **Biblioteca** da conta. O resto deste fluxo não se aplica.
 2. Escolhendo um livro dele, o app abre o seletor de arquivos do iOS. O leitor também pode chegar aqui pelo "Compartilhar" de outro app, e aí este passo é pulado.
 3. O livro é importado.
    - Deu certo: segue para **Escolher a voz**.
@@ -70,7 +71,8 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 
 ### Login e teste
 
-- O login aparece só quando o leitor decide continuar depois dos 5 minutos.
+- Para quem ainda não tem conta, o login aparece só quando o leitor decide continuar depois dos 5 minutos.
+- Quem já tem conta (por exemplo, num iPhone novo) entra pelo botão "Já tenho conta" em **Boas-vindas**. O que pode fazer depois de entrar depende do estado da assinatura, como em qualquer outro aparelho. Decidido pelo Matheus em 10/11/2026.
 - Antes do login, voltar do player leva à **Biblioteca**, que mostra o livro importado com um convite para continuar ouvindo. Decidido pelo Matheus em 10/11/2026.
 - Ao fazer login, o livro, a posição e a narração já gerada passam para a conta sem o leitor fazer nada.
 - O pedido de permissão de notificação vem junto com o lembrete do dia 5 em **Começar o teste**, com o texto dizendo para que serve.
