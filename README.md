@@ -17,4 +17,5 @@ A especificação do Traça, um app de iOS para ler e ouvir os livros do própri
 
 ## Medida e marca
 
+- [Métricas e eventos da jornada](metricas.md) · o que medimos e para quê.
 - [Guia de marca](marca.md) · nome, cores, tipografia e ícone.

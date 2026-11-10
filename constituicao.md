@@ -40,10 +40,9 @@ Referência de mercado mostra o que outro produto escolheu e nunca vira regra so
 - **Abre os formatos comuns de ebook.** O leitor não deve precisar converter arquivo antes de importar. Na V1: EPUB, PDF, MOBI, AZW3, FB2, TXT e RTF, todos sem DRM. Quadrinhos (CBZ e CBR) ficam para depois, porque são imagens e não podem ser narrados. Decidido pelo Matheus em 10/11/2026.
 - **O Traça é um app de assinatura.** Antes de assinar, o leitor pode gerar até 5 minutos de narração grátis. Depois, sete dias grátis, com o cartão cadastrado no início pela App Store. Em seguida, cobrança mensal ou anual, com 20% de desconto no plano anual em relação a doze meses do mensal. Decidido pelo Matheus em 10/11/2026.
 - **Nasce nativo no iPhone.** A primeira versão é um app nativo só de iPhone, sem layout próprio de iPad, porque é no celular que as pessoas mais testam e assinam coisas novas, e porque ouvir com a tela bloqueada, ouvir offline e abrir arquivos do iOS funcionam melhor em app nativo do que em web app. Mac e web vêm depois. Decidido pelo Matheus em 10/11/2026.
-- **O leitor entra com a conta Apple ou Google.** O Traça tem conta própria, sem senha própria: o login é feito com Entrar com a Apple ou com o Google. Isso prepara o produto para Android e web e permite falar com quem cancelou. Excluir a conta pelo próprio app é obrigatório, como exige a App Store. Decidido pelo Matheus em 10/11/2026.
+- **O leitor entra com a conta Apple ou Google.** O Traça tem conta própria, sem senha própria: o login é feito com Entrar com a Apple ou com o Google. O login só é pedido ao começar o teste grátis: importar um livro e ouvir os 5 minutos grátis funcionam sem conta. Isso prepara o produto para Android e web e permite falar com quem cancelou. Excluir a conta pelo próprio app é obrigatório, como exige a App Store. Decidido pelo Matheus em 10/11/2026.
 - **O leitor só lê o que é dele.** O Traça abre arquivos que o usuário importa e não distribui, não vende e não vem com livro protegido por direito autoral. Decidido pelo Matheus em 10/11/2026.
 
 ## Definições pendentes
 
-- Em que momento o login é pedido: na primeira abertura, ou só ao começar o teste grátis (deixando os 5 minutos sem login). · Matheus
 - Onde ficam os arquivos dos livros: no iCloud do leitor ou num servidor do Traça, sabendo que o iCloud não existe no Android. · Matheus
