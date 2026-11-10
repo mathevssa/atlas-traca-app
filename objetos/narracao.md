@@ -2,10 +2,10 @@
 tipo: objeto
 titulo: Narração
 definicao: O áudio de um trecho de cerca de 5 minutos de um livro, lido pela voz de IA. É gerado sob demanda, um trecho de cada vez, para o Traça só pagar pelo que o leitor de fato ouve.
-status: Clarificação
+status: Pronto p/ dev
 alertas: []
 versao: 1.8
-aprovado:
+aprovado: 2026-11-10
 ---
 
 # Narração

@@ -3,23 +3,22 @@ tipo: fluxo
 titulo: Gerenciar a conta
 ator: leitor com conta
 job: ver a assinatura, sair da conta ou apagar tudo quando quiser
-status: Clarificação
+status: Desenhado
 alertas: []
-versao: 1.2
-aprovado:
-prototipo:
+versao: 2.0
+aprovado: 2026-11-10
+prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
 
 # Gerenciar a conta
 
 ## Protótipo
 
-Ainda não desenhado.
+Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL), página "App V1", linha CON. Aprovado pelo Matheus em 10/11/2026.
 
-Telas que esta página descreve (nomes provisórios até o protótipo existir):
-
-- **Conta** · dados da conta, assinatura e ações.
-- **Excluir conta** · o diálogo de confirmação.
+- **CON-001 · Conta** · conta, assinatura, notificações, sair e excluir.
+- **CON-002 · Excluir conta** · painel de confirmação.
+- **CON-003 · Excluindo a conta** · o painel durante a exclusão.
 
 ## Job to be Done
 
@@ -71,7 +70,11 @@ Decidido pelo Matheus em 10/11/2026.
 
 ## Componentes e telas
 
-A definir no design.
+As telas usam os componentes do design system do canvas (página "Marca e design system", quadros DS-01 a DS-03), com o Liquid Glass descrito no [guia de marca](../marca.md#linguagem-visual-do-app). Os nomes de voz (Clara, Davi, Helena, Rafael), os livros e os tempos que aparecem nas telas são valores de exemplo.
+
+- **CON-001** · Conta
+- **CON-002** · Excluir conta
+- **CON-003** · Excluindo a conta
 
 ## Dentro do escopo
 

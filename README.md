@@ -5,8 +5,8 @@ A especificação do Traça, um app de iOS para ler e ouvir os livros do própri
 | | |
 |---|---|
 | **Fontes** | Decisões do Matheus, registradas neste repositório. A hierarquia está na [Constituição](constituicao.md). |
-| **Design** | [Canvas da marca](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL) · telas do app ainda não desenhadas |
-| **Versão atual** | `v0.2` · 10/11/2026 · objetos e fluxos da V1 em Clarificação, ainda sem aprovação |
+| **Design** | [Canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL): marca e design system na primeira página, as 35 telas da V1 na página "App V1". Aprovado em 10/11/2026. |
+| **Versão atual** | `v1.0` · 10/11/2026 · V1 completa e aprovada: Constituição, marca, objetos, fluxos e design |
 
 ## Base
 

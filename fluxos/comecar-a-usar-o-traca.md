@@ -3,27 +3,28 @@ tipo: fluxo
 titulo: Começar a usar o Traça
 ator: leitor que acabou de instalar o app
 job: ouvir o próprio livro em poucos segundos e decidir se vale assinar
-status: Clarificação
+status: Desenhado
 alertas: []
-versao: 1.3
-aprovado:
-prototipo:
+versao: 2.0
+aprovado: 2026-11-10
+prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
 
 # Começar a usar o Traça
 
 ## Protótipo
 
-Ainda não desenhado.
+Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL), página "App V1", linha CMC. Aprovado pelo Matheus em 10/11/2026.
 
-Telas que esta página descreve (nomes provisórios até o protótipo existir):
-
-- **Boas-vindas** · primeira abertura do app.
-- **Escolher o primeiro livro** · o seletor de arquivos do iOS, aberto pelo app.
-- **Escolher a voz** · as vozes em português do Brasil, com amostra, antes do primeiro play.
-- **Ouvir os 5 minutos** · o player, com o contador do tempo grátis.
-- **Fim dos 5 minutos · Entrar** · o painel por cima do livro pausado, com o convite para continuar e o login com a Apple ou o Google. Decidido pelo Matheus em 10/11/2026.
-- **Começar o teste** · o paywall com a linha do tempo do teste.
+- **CMC-001 · Boas-vindas** · três caminhos: escolher um livro do iPhone, ouvir o livro de amostra e "Já tenho conta".
+- **CMC-002 · Importando o primeiro livro** · o botão vira a barra de progresso da importação.
+- **CMC-003 · Erro de importação (DRM)** · a mensagem de proteção contra cópia acima do botão.
+- **CMC-004 · Escolher a voz** · lista de vozes com amostra, a primeira já marcada.
+- **CMC-005 · Ouvir os 5 minutos** · player com o contador de tempo grátis.
+- **CMC-006 · Preparando a voz** · player enquanto o primeiro trecho é gerado.
+- **CMC-007 · Fim dos 5 minutos · Entrar** · painel de login com a Apple ou o Google por cima do livro pausado.
+- **CMC-008 · Começar o teste** · paywall com a linha do tempo do teste e o plano anual marcado.
+- **CMC-009 · Livro de amostra** · player da amostra, com o convite para ouvir um livro do leitor.
 
 ## Job to be Done
 
@@ -111,7 +112,17 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 
 ## Componentes e telas
 
-A definir no design.
+As telas usam os componentes do design system do canvas (página "Marca e design system", quadros DS-01 a DS-03), com o Liquid Glass descrito no [guia de marca](../marca.md#linguagem-visual-do-app). Os nomes de voz (Clara, Davi, Helena, Rafael), os livros e os tempos que aparecem nas telas são valores de exemplo.
+
+- **CMC-001** · Boas-vindas
+- **CMC-002** · Importando o primeiro livro
+- **CMC-003** · Erro de importação (DRM)
+- **CMC-004** · Escolher a voz
+- **CMC-005** · Ouvir os 5 minutos
+- **CMC-006** · Preparando a voz
+- **CMC-007** · Fim dos 5 minutos · Entrar
+- **CMC-008** · Começar o teste
+- **CMC-009** · Livro de amostra
 
 ## Dentro do escopo
 

@@ -3,25 +3,26 @@ tipo: fluxo
 titulo: Importar e excluir livros
 ator: leitor com conta
 job: pôr na biblioteca o livro que quer ouvir e tirar o que não quer mais
-status: Clarificação
+status: Desenhado
 alertas: []
-versao: 1.2
-aprovado:
-prototipo:
+versao: 2.0
+aprovado: 2026-11-10
+prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
 
 # Importar e excluir livros
 
 ## Protótipo
 
-Ainda não desenhado.
+Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL), página "App V1", linha IMP. Aprovado pelo Matheus em 10/11/2026.
 
-Telas que esta página descreve (nomes provisórios até o protótipo existir):
-
-- **Biblioteca** · a tela inicial do app para quem já tem conta.
-- **Importando** · o card do livro enquanto o arquivo é lido.
-- **Livro já está na biblioteca** · aviso quando o mesmo arquivo é importado de novo.
-- **Excluir livro** · o diálogo de confirmação.
+- **IMP-001 · Biblioteca vazia** · convite para importar e os formatos aceitos.
+- **IMP-002 · Biblioteca** · "Continuar ouvindo", grade de capas e mini player.
+- **IMP-003 · Biblioteca · importando** · cards em importação junto com os livros prontos.
+- **IMP-004 · Livro já está na biblioteca** · o aviso sobre o player do livro que já existia.
+- **IMP-005 · Menu do livro** · menu com Excluir livro.
+- **IMP-006 · Excluir livro** · diálogo de confirmação.
+- **IMP-007 · Erro de formato** · aviso de formato não aceito na biblioteca.
 
 ## Job to be Done
 
@@ -80,7 +81,15 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 
 ## Componentes e telas
 
-A definir no design.
+As telas usam os componentes do design system do canvas (página "Marca e design system", quadros DS-01 a DS-03), com o Liquid Glass descrito no [guia de marca](../marca.md#linguagem-visual-do-app). Os nomes de voz (Clara, Davi, Helena, Rafael), os livros e os tempos que aparecem nas telas são valores de exemplo.
+
+- **IMP-001** · Biblioteca vazia
+- **IMP-002** · Biblioteca
+- **IMP-003** · Biblioteca · importando
+- **IMP-004** · Livro já está na biblioteca
+- **IMP-005** · Menu do livro
+- **IMP-006** · Excluir livro
+- **IMP-007** · Erro de formato
 
 ## Dentro do escopo
 

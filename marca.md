@@ -15,7 +15,7 @@ A marca usa só duas cores. O ícone, o logotipo e as peças nunca juntam uma te
 | Laranja-queimado | `#D9541E` | Cor principal: fundo do ícone, logotipo sobre creme, destaques da marca |
 | Creme | `#FFF1E3` | Cor de contraste: desenho do ícone, logotipo sobre o laranja, fundos claros |
 
-As cores de interface (texto, fundo do leitor, modo noturno, alertas) ainda não foram definidas. Quando forem, saem destas duas.
+As cores de interface (escala de neutros quentes, tons do laranja, cores de alerta e o modo escuro) derivam destas duas e estão no quadro DS-01 do [canvas](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL). O botão principal usa o laranja #B8441A, um tom mais escuro da marca, para o texto creme ter contraste. Aprovado pelo Matheus em 10/11/2026.
 
 ## Tipografia
 
@@ -42,4 +42,12 @@ O app segue o Liquid Glass da Apple (iOS 26). Só a camada de controle vira vidr
 
 ## Tom de voz
 
-A definir.
+O app já tem uma voz que lê. A voz que escreve soa como a mesma pessoa: tranquila, próxima e direta. Aprovado pelo Matheus em 10/11/2026.
+
+- **Fala como gente.** Trata por você, usa frases curtas e o português do dia a dia.
+- **Resolve antes de explicar.** Diz o que aconteceu e o que fazer agora. Nunca culpa a pessoa e nunca mostra código de erro.
+- **Calor sem fofura.** Pode brincar de leve com devorar livros em momentos bons. Em erro, cobrança ou exclusão, fica sério.
+- **Sem pressão e sem jargão.** Nada de caixa alta, contagem regressiva ou termo técnico. Quem decide o ritmo é quem está ouvindo.
+- **Na tela, só o que importa para quem usa.** Regra do sistema e detalhe técnico ficam no Atlas, não na interface.
+
+Exemplos de "assim sim e assim não" estão no quadro BB-08 do canvas.

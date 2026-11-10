@@ -1,7 +1,7 @@
 ---
 tipo: constituicao
 titulo: Constituição
-aprovado:
+aprovado: 2026-11-10
 ---
 
 # Constituição

@@ -2,10 +2,10 @@
 tipo: objeto
 titulo: Livro
 definicao: Um arquivo de ebook que o leitor importou para o Traça e que aparece na biblioteca, pronto para virar audiolivro.
-status: Clarificação
+status: Pronto p/ dev
 alertas: []
 versao: 1.5
-aprovado:
+aprovado: 2026-11-10
 ---
 
 # Livro

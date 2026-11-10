@@ -2,10 +2,10 @@
 tipo: objeto
 titulo: Assinatura
 definicao: O direito do leitor de usar o Traça, comprado pela App Store, com teste grátis de 7 dias e cobrança mensal ou anual depois.
-status: Clarificação
+status: Pronto p/ dev
 alertas: []
 versao: 1.5
-aprovado:
+aprovado: 2026-11-10
 ---
 
 # Assinatura

@@ -3,24 +3,23 @@ tipo: fluxo
 titulo: Assinar o Traça
 ator: leitor com conta, com o teste acabando, a assinatura expirada ou em carência
 job: continuar ouvindo sem perder nada, pagando de um jeito claro e sem susto
-status: Clarificação
+status: Desenhado
 alertas: []
-versao: 1.2
-aprovado:
-prototipo:
+versao: 2.0
+aprovado: 2026-11-10
+prototipo: https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL
 ---
 
 # Assinar o Traça
 
 ## Protótipo
 
-Ainda não desenhado.
+Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35JL), página "App V1", linha ASS. Aprovado pelo Matheus em 10/11/2026.
 
-Telas que esta página descreve (nomes provisórios até o protótipo existir):
-
-- **Assinar** · o paywall, com o plano anual e o mensal.
-- **Assinatura expirada** · o aviso na biblioteca para quem não renovou.
-- **Cobrança não passou** · o aviso para quem está em carência.
+- **ASS-001 · Assinar** · paywall sem teste, para quem já usou o teste.
+- **ASS-002 · Assinatura expirada** · aviso na biblioteca.
+- **ASS-003 · Cobrança não passou** · aviso no player durante a carência.
+- **ASS-004 · Assinar · carregando preços** · paywall com os planos em esqueleto.
 
 ## Job to be Done
 
@@ -68,7 +67,12 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 
 ## Componentes e telas
 
-A definir no design.
+As telas usam os componentes do design system do canvas (página "Marca e design system", quadros DS-01 a DS-03), com o Liquid Glass descrito no [guia de marca](../marca.md#linguagem-visual-do-app). Os nomes de voz (Clara, Davi, Helena, Rafael), os livros e os tempos que aparecem nas telas são valores de exemplo.
+
+- **ASS-001** · Assinar
+- **ASS-002** · Assinatura expirada
+- **ASS-003** · Cobrança não passou
+- **ASS-004** · Assinar · carregando preços
 
 ## Dentro do escopo
 

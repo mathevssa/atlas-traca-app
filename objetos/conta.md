@@ -2,10 +2,10 @@
 tipo: objeto
 titulo: Conta
 definicao: A identidade do leitor no Traça, criada no primeiro login com a Apple ou o Google. Guarda os livros, as posições, as marcações e a assinatura.
-status: Clarificação
+status: Pronto p/ dev
 alertas: []
 versao: 1.3
-aprovado:
+aprovado: 2026-11-10
 ---
 
 # Conta
