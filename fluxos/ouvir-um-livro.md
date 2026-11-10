@@ -5,7 +5,7 @@ ator: leitor com o teste ou a assinatura ativos
 job: ouvir o livro com uma voz natural, acompanhando o texto, e controlar a narração sem atrito
 status: Clarificação
 alertas: []
-versao: 1.1
+versao: 1.2
 aprovado:
 prototipo:
 ---
@@ -85,7 +85,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 
 - **Ideal:** texto com a palavra falada destacada, barra de progresso do capítulo e controles.
 - **Vazio:** não se aplica.
-- **Erro:** a geração falhou depois das 3 tentativas: "A voz não conseguiu preparar este trecho agora.", com o botão "Tentar de novo". Sem internet e sem trecho pronto: "Sem internet. O que já foi preparado continua tocando. Para o resto, conecte-se."
+- **Erro:** a geração falhou depois das 3 tentativas: "Não deu para preparar a voz deste trecho agora.", com o botão "Tentar de novo". Sem internet e sem trecho pronto: "Você está sem internet. Conecte o iPhone para continuar ouvindo."
 - **Parcial:** o trecho atual está pronto e o próximo ainda está sendo gerado: nada aparece, a não ser que a voz chegue ao fim do trecho antes; aí mostra "Preparando a voz".
 - **Carregando:** "Preparando a voz" no lugar do botão de play.
 

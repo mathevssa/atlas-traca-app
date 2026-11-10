@@ -5,7 +5,7 @@ ator: leitor que acabou de instalar o app
 job: ouvir o próprio livro em poucos segundos e decidir se vale assinar
 status: Clarificação
 alertas: []
-versao: 1.2
+versao: 1.3
 aprovado:
 prototipo:
 ---
@@ -76,7 +76,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - Antes do login, voltar do player leva à **Biblioteca**, que mostra o livro importado com um convite para continuar ouvindo. Decidido pelo Matheus em 10/11/2026.
 - Ao fazer login, o livro, a posição e a narração já gerada passam para a conta sem o leitor fazer nada.
 - O pedido de permissão de notificação vem junto com o lembrete do dia 5 em **Começar o teste**, com o texto dizendo para que serve.
-- **Começar o teste** sempre mostra "Cancele quando quiser nos Ajustes do iPhone" e o link "Restaurar compras".
+- **Começar o teste** sempre mostra "Cancele quando quiser nos Ajustes do iPhone" e o link "Restaurar Compras".
 - A linha do tempo do teste diz, nesta ordem: "Hoje: acesso completo, sem cobrança", "Dia 5: a gente te lembra que o teste está acabando" e "Dia 7: começa a cobrança. Cancele antes, se quiser".
 
 ## Estados de UI

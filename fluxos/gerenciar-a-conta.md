@@ -5,7 +5,7 @@ ator: leitor com conta
 job: ver a assinatura, sair da conta ou apagar tudo quando quiser
 status: Clarificação
 alertas: []
-versao: 1.0
+versao: 1.1
 aprovado:
 prototipo:
 ---
@@ -45,7 +45,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 ## Regras
 
 - Excluir a conta fica dentro do app, a no máximo dois toques da tela **Conta**, como exige a App Store.
-- **Excluir conta** lista o que será apagado: livros, marcações, posições e o áudio gerado.
+- **Excluir conta** lista o que o leitor perde: os livros, as marcações e onde parou em cada livro. O áudio gerado também é apagado, mas não aparece no texto, porque não importa para quem lê.
 - Sair não apaga nada da conta. Ao entrar de novo, a biblioteca volta.
 
 ## Estados de UI

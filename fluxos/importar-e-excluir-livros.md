@@ -5,7 +5,7 @@ ator: leitor com conta
 job: pôr na biblioteca o livro que quer ouvir e tirar o que não quer mais
 status: Clarificação
 alertas: []
-versao: 1.1
+versao: 1.2
 aprovado:
 prototipo:
 ---
@@ -49,7 +49,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - Importar funciona pelo botão da **Biblioteca** e pelo "Compartilhar" do iOS. Os dois caminhos dão o mesmo resultado.
 - O leitor pode importar vários arquivos de uma vez pelo seletor do iOS. Cada um vira um card **Importando**.
 - Importar não gera narração. A voz só é gerada quando o leitor dá play.
-- **Excluir livro** sempre explica que as marcações e o áudio já gerado também serão apagados.
+- **Excluir livro** sempre avisa que as marcações do livro também serão apagadas.
 - Com a assinatura expirada, o botão de importar leva ao paywall de [Assinar o Traça](assinar-o-traca.md). Excluir continua liberado.
 
 ### Mensagens
@@ -59,7 +59,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - Formato não aceito: "O Traça ainda não abre esse tipo de arquivo. Ele abre EPUB, PDF, MOBI, AZW3, FB2, TXT e RTF."
 - Livro repetido: "Este livro já está na sua biblioteca."
 - Os avisos de erro de importação ficam na tela até o leitor fechar ou sair da biblioteca. Decidido pelo Matheus em 10/11/2026.
-- **Excluir livro**: título "Excluir este livro?", texto "As marcações e o áudio já preparado também serão apagados.", botões "Excluir" e "Cancelar".
+- **Excluir livro**: título "Excluir este livro?", texto "As marcações dele também serão apagadas. Não dá para desfazer.", botões "Excluir" e "Cancelar".
 
 ## Estados de UI
 

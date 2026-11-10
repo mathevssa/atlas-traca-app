@@ -5,7 +5,7 @@ ator: leitor com conta, com o teste acabando, a assinatura expirada ou em carên
 job: continuar ouvindo sem perder nada, pagando de um jeito claro e sem susto
 status: Clarificação
 alertas: []
-versao: 1.0
+versao: 1.1
 aprovado:
 prototipo:
 ---
@@ -40,13 +40,13 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 3. O leitor confirma pela App Store.
    - Confirmou: a assinatura fica `Ativa`, e o leitor volta para onde estava.
    - Desistiu: volta para onde estava, sem nada mudar.
-4. Num iPhone novo, o leitor toca em "Restaurar compras" e a assinatura volta a valer.
-5. Se a cobrança não passa no fim do período, o leitor vê **Cobrança não passou**, com o link para atualizar o pagamento nos Ajustes do iPhone, e continua ouvindo o que já foi gerado durante a carência.
+4. Num iPhone novo, o leitor toca em "Restaurar Compras" e a assinatura volta a valer.
+5. Se a cobrança não passa no fim do período, o leitor vê **Cobrança não passou**, com o título "Não conseguimos renovar sua assinatura" e o texto "Houve um problema com o pagamento. Para continuar ouvindo o livro, atualize a forma de pagamento.", com o link para atualizar o pagamento nos Ajustes do iPhone, e continua ouvindo o que já foi gerado durante a carência.
 
 ## Regras
 
 - O preço anual cobrado aparece como principal, e o equivalente por mês aparece como informação secundária, como exige a App Store.
-- **Assinar** sempre mostra "Cancele quando quiser nos Ajustes do iPhone", "Restaurar compras", os Termos e a Privacidade.
+- **Assinar** sempre mostra "Cancele quando quiser nos Ajustes do iPhone", "Restaurar Compras", os Termos e a Privacidade.
 - Quem já usou o teste grátis na conta Apple não vê oferta de teste. O botão diz "Assinar".
 - Durante o teste, o app manda um lembrete no dia 5, se o leitor permitiu notificações: "Seu teste do Traça acaba em 2 dias. Para continuar ouvindo, não precisa fazer nada."
 - Em carência, o player toca o que já foi gerado e mostra **Cobrança não passou** quando o leitor tenta gerar um trecho novo.
@@ -62,7 +62,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 ## Critérios de aceite
 
 - **Quando** a compra é confirmada, as ações bloqueadas devem ser liberadas na hora, sem reiniciar o app.
-- **Quando** o leitor toca em "Restaurar compras" com uma assinatura válida, ela deve voltar a valer na conta.
+- **Quando** o leitor toca em "Restaurar Compras" com uma assinatura válida, ela deve voltar a valer na conta.
 - **Se** a cobrança falha, **então** o leitor deve continuar ouvindo o que já foi gerado, sem gerar trechos novos, até o fim da carência.
 
 ## Componentes e telas
