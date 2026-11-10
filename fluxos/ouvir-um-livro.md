@@ -5,7 +5,7 @@ ator: leitor com o teste ou a assinatura ativos
 job: ouvir o livro com uma voz natural, acompanhando o texto, e controlar a narração sem atrito
 status: Clarificação
 alertas: []
-versao: 1.0
+versao: 1.1
 aprovado:
 prototipo:
 ---
@@ -71,6 +71,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - **Vozes** lista as vozes em português do Brasil, cada uma com uma amostra curta para ouvir antes de escolher.
 - Trocar a voz no meio do livro vale a partir do próximo capítulo, e o app avisa isso na hora da troca: "A nova voz começa no próximo capítulo." As regras moram na [Narração](../objetos/narracao.md#atributos).
 - A voz escolhida vale para os próximos livros também.
+- Depois de uma troca no meio do capítulo, o botão de voz já mostra a voz escolhida, mesmo antes de ela começar a tocar. Decidido pelo Matheus em 10/11/2026.
 
 ### Marcações
 

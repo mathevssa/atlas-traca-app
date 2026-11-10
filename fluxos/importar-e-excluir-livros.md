@@ -5,7 +5,7 @@ ator: leitor com conta
 job: pôr na biblioteca o livro que quer ouvir e tirar o que não quer mais
 status: Clarificação
 alertas: []
-versao: 1.0
+versao: 1.1
 aprovado:
 prototipo:
 ---
@@ -58,13 +58,14 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - Arquivo corrompido: "Não conseguimos abrir este arquivo. Ele pode estar danificado. Tente baixar de novo."
 - Formato não aceito: "O Traça ainda não abre esse tipo de arquivo. Ele abre EPUB, PDF, MOBI, AZW3, FB2, TXT e RTF."
 - Livro repetido: "Este livro já está na sua biblioteca."
+- Os avisos de erro de importação ficam na tela até o leitor fechar ou sair da biblioteca. Decidido pelo Matheus em 10/11/2026.
 - **Excluir livro**: título "Excluir este livro?", texto "As marcações e o áudio já preparado também serão apagados.", botões "Excluir" e "Cancelar".
 
 ## Estados de UI
 
 ### Biblioteca
 
-- **Ideal:** "Continuar ouvindo" com o último livro, e a lista de livros, do mais recente para o mais antigo.
+- **Ideal:** "Continuar ouvindo" com o último livro, e a lista de livros, pela última vez que foram abertos (as regras moram no [Livro](../objetos/livro.md#atributos)).
 - **Vazio:** convite para importar o primeiro livro, com o botão de importar e a lista de formatos aceitos.
 - **Erro:** a mensagem do motivo da importação que falhou, como aviso no rodapé da tela.
 - **Parcial:** livros em **Importando** aparecem junto com os prontos.

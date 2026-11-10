@@ -5,7 +5,7 @@ ator: leitor que acabou de instalar o app
 job: ouvir o próprio livro em poucos segundos e decidir se vale assinar
 status: Clarificação
 alertas: []
-versao: 1.0
+versao: 1.1
 aprovado:
 prototipo:
 ---
@@ -22,8 +22,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - **Escolher o primeiro livro** · o seletor de arquivos do iOS, aberto pelo app.
 - **Escolher a voz** · as vozes em português do Brasil, com amostra, antes do primeiro play.
 - **Ouvir os 5 minutos** · o player, com o contador do tempo grátis.
-- **Fim dos 5 minutos** · o convite para continuar ouvindo.
-- **Entrar** · login com a Apple ou o Google.
+- **Fim dos 5 minutos · Entrar** · o painel por cima do livro pausado, com o convite para continuar e o login com a Apple ou o Google. Decidido pelo Matheus em 10/11/2026.
 - **Começar o teste** · o paywall com a linha do tempo do teste.
 
 ## Job to be Done
@@ -46,8 +45,8 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
    - Deu errado (DRM, arquivo corrompido, formato não aceito): o leitor vê o motivo e volta para **Boas-vindas** para escolher outro arquivo.
 4. Em **Escolher a voz**, o leitor ouve a amostra de cada voz e escolhe uma. Ao confirmar, o player abre e a narração começa sozinha, do início do livro.
 5. O leitor ouve com o texto acompanhando. Um contador mostra quanto resta dos 5 minutos grátis.
-6. Os 5 minutos acabam. A voz para no fim da frase e aparece **Fim dos 5 minutos**, com o botão para continuar.
-7. O leitor entra com a Apple ou o Google em **Entrar**.
+6. Os 5 minutos acabam. A voz para no fim da frase e aparece **Fim dos 5 minutos · Entrar**, por cima do livro pausado.
+7. O leitor entra com a Apple ou o Google nesse mesmo painel.
    - Desistiu do login: volta ao player, que fica parado no ponto onde a voz parou.
 8. **Começar o teste** mostra o plano anual pré-selecionado, o mensal e a linha do tempo do teste (hoje, lembrete no dia 5, cobrança no dia 7).
 9. O leitor confirma pela App Store.
@@ -59,8 +58,8 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 ### Antes do login
 
 - O app não pede login, nome nem e-mail para importar o primeiro livro e ouvir os 5 minutos.
-- Antes do login, só um livro pode ser importado. Tentar importar outro leva direto a **Fim dos 5 minutos**.
-- Os 5 minutos contam o áudio gerado, não o tempo ouvido: voltar e ouvir de novo não gasta o tempo grátis.
+- Antes do login, só um livro pode ser importado. Tentar importar outro leva direto a **Fim dos 5 minutos · Entrar**.
+- Os 5 minutos contam o tempo em que a voz tocou, e não o áudio gerado. Antes do login, só o primeiro trecho do livro é gerado. Decidido pelo Matheus em 10/11/2026.
 - Os 5 minutos grátis valem uma vez por aparelho. Reinstalar o app não renova o tempo.
 
 ### Voz e livro de amostra
@@ -72,6 +71,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 ### Login e teste
 
 - O login aparece só quando o leitor decide continuar depois dos 5 minutos.
+- Antes do login, voltar do player leva à **Biblioteca**, que mostra o livro importado com um convite para continuar ouvindo. Decidido pelo Matheus em 10/11/2026.
 - Ao fazer login, o livro, a posição e a narração já gerada passam para a conta sem o leitor fazer nada.
 - O pedido de permissão de notificação vem junto com o lembrete do dia 5 em **Começar o teste**, com o texto dizendo para que serve.
 - **Começar o teste** sempre mostra "Cancele quando quiser nos Ajustes do iPhone" e o link "Restaurar compras".
@@ -95,7 +95,7 @@ Telas que esta página descreve (nomes provisórios até o protótipo existir):
 - **Parcial:** não se aplica.
 - **Carregando:** "Preparando a voz" enquanto o primeiro trecho é gerado.
 
-### Entrar e Começar o teste
+### Fim dos 5 minutos · Entrar e Começar o teste
 
 - **Erro:** login cancelado ou recusado volta ao player sem mensagem de erro. Compra recusada pela App Store mostra o motivo que a App Store devolver.
 

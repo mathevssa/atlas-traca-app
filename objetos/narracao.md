@@ -4,7 +4,7 @@ titulo: Narração
 definicao: O áudio de um trecho de cerca de 5 minutos de um livro, lido pela voz de IA. É gerado sob demanda, um trecho de cada vez, para o Traça só pagar pelo que o leitor de fato ouve.
 status: Clarificação
 alertas: []
-versao: 1.6
+versao: 1.7
 aprovado:
 ---
 
@@ -53,7 +53,7 @@ Sem internet, o trecho com narração `Pronta` toca normalmente. Um trecho sem n
 
 | Ação | Antes do teste | Em teste ou Ativa | Em carência | Expirada |
 |---|---|---|---|---|
-| Gerar narração nova | Até 5 minutos de áudio no total, somando todos os livros | Sim | Não | Não |
+| Gerar narração nova | Só o primeiro trecho do livro importado | Sim | Não | Não |
 | Tocar uma narração `Pronta` | Sim | Sim | Sim | Não |
 
 Decidido pelo Matheus em 10/11/2026. A narração já gerada continua guardada quando a assinatura expira e volta a tocar se o leitor assinar de novo.

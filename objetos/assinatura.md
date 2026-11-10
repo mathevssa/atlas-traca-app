@@ -4,7 +4,7 @@ titulo: Assinatura
 definicao: O direito do leitor de usar o Traça, comprado pela App Store, com teste grátis de 7 dias e cobrança mensal ou anual depois.
 status: Clarificação
 alertas: []
-versao: 1.4
+versao: 1.5
 aprovado:
 ---
 
@@ -28,7 +28,7 @@ aprovado:
 
 Estados: `Em teste` · `Ativa` · `Em carência` · `Expirada`
 
-Antes de começar o teste, o leitor não tem assinatura. Nessa situação ele pode importar livros e gerar até 5 minutos de narração no total, como dizem as permissões do [Livro](livro.md#permissões) e da [Narração](narracao.md#permissões).
+Antes de começar o teste, o leitor não tem assinatura. Nessa situação ele pode importar um livro e ouvir até 5 minutos dele, como dizem as permissões do [Livro](livro.md#permissões) e da [Narração](narracao.md#permissões).
 
 | De | Evento | Para | Quem | Efeitos |
 |---|---|---|---|---|

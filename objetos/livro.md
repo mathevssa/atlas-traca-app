@@ -4,7 +4,7 @@ titulo: Livro
 definicao: Um arquivo de ebook que o leitor importou para o Traça e que aparece na biblioteca, pronto para virar audiolivro.
 status: Clarificação
 alertas: []
-versao: 1.3
+versao: 1.4
 aprovado:
 ---
 
@@ -28,7 +28,8 @@ aprovado:
 | Posição atual | Sim | O ponto do livro onde a narração parou. Começa no início do livro. A tela de texto sempre abre nessa mesma posição, e o play sempre continua dela. |
 | Marcações | Não | Lista de pontos do livro que o leitor salvou para voltar depois. Cada marcação guarda a posição, o capítulo e a data em que foi criada. A marcação não tem nota nem cor e não serve para mais nada além de voltar ao ponto. Decidido pelo Matheus em 10/11/2026. |
 | Importado em | Sim | Data e hora da importação, gerada pelo app. |
-| Aberto em | Não | Data e hora da última vez que o leitor abriu o livro. Vazio até a primeira abertura. |
+| Aberto em | Não | Data e hora da última vez que o leitor abriu o livro. Vazio até a primeira abertura. A biblioteca ordena os livros por este campo, do mais recente para o mais antigo; livro nunca aberto usa a data de importação. Decidido pelo Matheus em 10/11/2026. |
+| Tempo restante | Sim | O "faltam X" mostrado na biblioteca e no player. É uma estimativa feita pelo número de palavras que faltam e pela velocidade escolhida, porque a narração ainda não foi gerada. Decidido pelo Matheus em 10/11/2026. |
 
 ## Ciclo de vida
 
