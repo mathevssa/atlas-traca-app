@@ -28,7 +28,8 @@ Referência de mercado mostra o que outro produto escolheu e nunca vira regra so
 
 ## Quem usa
 
-- **O leitor**, a pessoa que instala o app, importa os próprios livros e ouve esses livros, acompanhando o texto na tela. É o único ator do Traça. Não existe painel administrativo.
+- **O leitor**, a pessoa que instala o app, importa os próprios livros e ouve esses livros, acompanhando o texto na tela. É o único ator do app.
+- **A equipe do Traça**, que usa o painel administrativo. O painel existe, e o que ele mostra e quem acessa são definidos na fase de conta e assinatura. Decidido pelo Matheus em 11/11/2026.
 
 ## Princípios
 

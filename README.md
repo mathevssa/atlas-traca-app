@@ -26,6 +26,7 @@ O que fica para resolver durante o desenvolvimento e antes de publicar na App St
 
 | Pendência | Quando | Dono |
 |---|---|---|
+| Definir o painel administrativo: quem acessa, o que mostra (por exemplo, as horas geradas de [Métricas](metricas.md)) e se ele também gerencia as assinaturas. | Fase de conta e assinatura | Matheus |
 | Teste de escuta da voz: Inworld TTS-2 Flash contra o TTS-2, com trechos reais em sequência. Define o modelo padrão e a ordem das vozes em [Escolher a voz](fluxos/comecar-a-usar-o-traca.md#definições-pendentes). | Antes de fechar o servidor de voz | Claude prepara, Matheus decide |
 | Trocar os nomes de voz de exemplo (Clara, Davi, Helena, Rafael) pelas vozes reais em português do Brasil da Inworld. | Depois do teste de escuta | Claude |
 | Trocar os logos de referência pelos componentes oficiais: o botão nativo de Entrar com a Apple e o asset oficial do Google. | No desenvolvimento do login | Claude |
