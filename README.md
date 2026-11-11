@@ -31,7 +31,7 @@ O que fica para resolver durante o desenvolvimento e antes de publicar na App St
 | Trocar os logos de referência pelos componentes oficiais: o botão nativo de Entrar com a Apple e o asset oficial do Google. | No desenvolvimento do login | Claude |
 | Gerar a narração do livro de amostra, *O Alienista*, em todas as vozes. | Depois do teste de escuta | Claude |
 | Conferir na App Store se a faixa de R$ 429,90 existe para o Plano anual; se não, usar R$ 399,90. | Ao cadastrar os produtos na App Store | Claude |
-| Abrir a conta de desenvolvedor da Apple como pessoa física, em nome do Matheus, que aparece como vendedor na App Store. Decidido pelo Matheus em 11/11/2026. | Antes da Fase 1, porque o TestFlight depende dela | Matheus |
+| Abrir a conta de desenvolvedor da Apple como pessoa física, em nome do Matheus, que aparece como vendedor na App Store. Decidido pelo Matheus em 11/11/2026. | Antes da fase de conta e assinatura: o login com a Apple, as compras de teste e o TestFlight dependem dela | Matheus |
 | Conversar com um contador sobre abrir um CNPJ (ME) e migrar a conta da Apple para a empresa antes de a receita crescer. | Antes de a receita crescer | Matheus |
 | Consulta jurídica sobre direito autoral (converter o livro do usuário em áudio e guardar o arquivo no servidor do Traça) e LGPD (texto enviado para a Inworld). | Antes da publicação | Matheus |
 | Política de privacidade e Termos de uso, com o que a consulta jurídica definir. | Antes da publicação | Claude escreve, Matheus aprova |
