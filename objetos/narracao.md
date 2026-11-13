@@ -67,7 +67,7 @@ Decidido pelo Matheus em 10/11/2026. A narração já gerada continua guardada q
 ## Usado nos fluxos
 
 - [Ouvir um livro](../fluxos/ouvir-um-livro.md) · cobre toda a geração e a reprodução.
-- [Começar a usar o Traça](../fluxos/comecar-a-usar-o-traca.md) · cobre os 5 minutos grátis antes do teste, que equivalem ao primeiro trecho.
+- [Começar a usar o Traça](../fluxos/comecar-a-usar-o-traca.md) · cobre os 5 minutos grátis antes do teste.
 
 ## Faz parte de
 
