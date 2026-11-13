@@ -63,7 +63,7 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 
 - O app não pede login, nome nem e-mail para importar o primeiro livro e ouvir os 5 minutos.
 - Antes do login, só um livro pode ser importado. Tentar importar outro leva direto a **Fim dos 5 minutos · Entrar**.
-- Os 5 minutos contam o tempo em que a voz tocou, e não o áudio gerado. Antes do login, só o primeiro trecho do livro é gerado. Decidido pelo Matheus em 10/11/2026.
+- Os 5 minutos contam o tempo em que a voz tocou, e não o áudio gerado. Antes do login, o app gera trechos até somar 5 minutos de voz, mesmo que passe de um capítulo para o outro. Decidido pelo Matheus em 10/11/2026 e revisto em 13/11/2026.
 - Os 5 minutos grátis valem uma vez por aparelho. Reinstalar o app não renova o tempo.
 
 ### Voz e livro de amostra

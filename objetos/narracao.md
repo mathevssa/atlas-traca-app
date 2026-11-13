@@ -53,7 +53,7 @@ Sem internet, o trecho com narração `Pronta` toca normalmente. Um trecho sem n
 
 | Ação | Antes do teste | Em teste ou Ativa | Em carência | Expirada |
 |---|---|---|---|---|
-| Gerar narração nova | Só o primeiro trecho do livro importado | Sim | Não | Não |
+| Gerar narração nova | Só até 5 minutos de voz do livro importado, mesmo que passe de um capítulo para o outro | Sim | Não | Não |
 | Tocar uma narração `Pronta` | Sim | Sim | Sim | Não |
 
 Decidido pelo Matheus em 10/11/2026. A narração já gerada continua guardada quando a assinatura expira e volta a tocar se o leitor assinar de novo.
