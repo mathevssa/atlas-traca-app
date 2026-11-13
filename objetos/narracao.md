@@ -4,7 +4,7 @@ titulo: Narração
 definicao: O áudio de um trecho de cerca de 5 minutos de um livro, lido pela voz de IA. É gerado sob demanda, um trecho de cada vez, para o Traça só pagar pelo que o leitor de fato ouve.
 status: Pronto p/ dev
 alertas: []
-versao: 1.8
+versao: 1.9
 aprovado: 2026-11-10
 ---
 
@@ -19,7 +19,7 @@ aprovado: 2026-11-10
 | Atributo | Obrigatório | Regra |
 |---|---|---|
 | Livro | Sim | O [Livro](livro.md) a que pertence. |
-| Trecho | Sim | O pedaço do livro que esta narração lê: cerca de 5 minutos de áudio, sempre cortado no fim de um parágrafo, em qualquer formato. O trecho não depende dos capítulos do livro, que servem só para navegar. Existe no máximo uma narração por trecho. Decidido pelo Matheus em 10/11/2026. |
+| Trecho | Sim | O pedaço do livro que esta narração lê. Começa onde a voz vai tocar: a posição atual ou o ponto do texto em que o leitor tocou. Termina perto dos 5 minutos de áudio, no fim de um parágrafo ou na virada de capítulo, o que vier antes, em qualquer formato. Se o leitor toca num ponto mais à frente, o que ficou para trás não é gerado: o próximo trecho começa no ponto tocado. Uma parte do livro que já tem narração `Pronta` não é gerada de novo. Decidido pelo Matheus em 10/11/2026 e revisto em 12/11/2026. |
 | Voz | Sim | A voz de IA usada, gerada pela Inworld, que devolve o tempo de cada palavra junto com o áudio. O modelo padrão é o TTS-2 Flash, a confirmar num teste de escuta contra o TTS-2. O leitor escolhe a voz entre todas as vozes em português do Brasil que a Inworld oferecer. Decidido pelo Matheus em 10/11/2026. Se o leitor troca de voz no meio de um livro, a voz nova vale a partir do próximo capítulo, para a voz não mudar no meio de um capítulo, e o app avisa o leitor disso na hora da troca. Decidido pelo Matheus em 10/11/2026. Em livro com um capítulo só, a voz nova começa no próximo trecho. Decidido pelo Matheus em 10/11/2026. |
 | Áudio | Sim, a partir de `Pronta` | O arquivo de áudio gerado, guardado no aparelho. |
 | Marcação de tempo | Sim, a partir de `Pronta` | O momento do áudio em que cada palavra ou frase é dita, para o texto na tela acompanhar a voz. |
@@ -34,7 +34,7 @@ Um trecho que ainda não tem narração simplesmente não tem registro. A geraç
 
 | De | Evento | Para | Quem | Efeitos |
 |---|---|---|---|---|
-| — | O leitor dá play num trecho que não tem narração | `Gerando` | Leitor | O texto do trecho vai para o serviço de voz. Cada geração tem custo. |
+| — | O leitor dá play, ou toca num ponto do texto, onde ainda não há narração | `Gerando` | Leitor | O texto do trecho vai para o serviço de voz. Cada geração tem custo. |
 | — | O trecho que está tocando chega perto do fim e o próximo não tem narração | `Gerando` | App | Gera o próximo trecho antes de ele começar, para a voz não parar na virada. Quanto antes começar: decisão técnica de quem construir, com uma condição: o áudio nunca para entre um trecho e outro quando há internet. |
 | `Gerando` | O serviço de voz devolve o áudio | `Pronta` | App | O áudio e a marcação de tempo ficam guardados no aparelho e tocam sem internet. |
 | `Gerando` | O serviço de voz falha ou a internet cai | `Com erro` | App | O app tenta de novo sozinho até 3 vezes. Decidido pelo Matheus em 10/11/2026. |

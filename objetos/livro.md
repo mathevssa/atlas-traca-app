@@ -4,7 +4,7 @@ titulo: Livro
 definicao: Um arquivo de ebook que o leitor importou para o Traça e que aparece na biblioteca, pronto para virar audiolivro.
 status: Pronto p/ dev
 alertas: []
-versao: 1.5
+versao: 1.6
 aprovado: 2026-11-10
 ---
 
@@ -38,7 +38,7 @@ Estados: `Importando` · `Disponível`
 | De | Evento | Para | Quem | Efeitos |
 |---|---|---|---|---|
 | — | Escolher um arquivo para importar | `Importando` | Leitor | O app copia o arquivo e começa a ler os metadados e o sumário. |
-| `Importando` | Leitura do arquivo termina bem e o livro ainda não está na biblioteca | `Disponível` | App | O livro aparece na biblioteca com título, autor e capa. Nenhuma narração é gerada nesse momento. |
+| `Importando` | Leitura do arquivo termina bem e o livro ainda não está na biblioteca | `Disponível` | App | O livro aparece na biblioteca com título, autor e capa. Nenhuma narração é gerada nesse momento. Em arquivos do Project Gutenberg, a licença em inglês do começo e do fim do arquivo é retirada, e o livro começa no texto da obra. Decidido pelo Matheus em 12/11/2026. |
 | `Importando` | A impressão digital é igual à de um livro que já está na biblioteca | — | App | A cópia é descartada, o leitor vê um aviso de que o livro já está na biblioteca e o livro existente abre. Decidido pelo Matheus em 10/11/2026. |
 | `Importando` | Arquivo com DRM, corrompido ou em formato não aceito | — | App | O livro não entra na biblioteca e o leitor vê uma mensagem com o motivo. Texto das mensagens: no fluxo de importação. |
 | `Disponível` | Criar uma marcação | `Disponível` | Leitor | A marcação entra na lista de marcações do livro. |

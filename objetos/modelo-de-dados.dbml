@@ -36,7 +36,7 @@ Table marcacao {
 Table narracao {
   id uuid [pk]
   livro_id uuid [not null, ref: > livro.id]
-  trecho_inicio position [not null, note: 'trecho de cerca de 5 min, cortado no fim de um parágrafo']
+  trecho_inicio position [not null, note: 'onde a voz vai tocar; vai até cerca de 5 min, no fim de um parágrafo ou na virada de capítulo']
   trecho_fim position [not null]
   marcacao_de_tempo json [note: 'momento do áudio de cada palavra ou frase']
   voz text [not null]
