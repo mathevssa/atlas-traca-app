@@ -55,6 +55,7 @@ Desenhado no [canvas do Traça](https://claude.ai/artifact/Wf6LhNjyW8UGYz895H35J
 - Ativa: o selo "Ativa" e a próxima cobrança.
 - Em teste: o selo "Teste grátis" e o texto "Seu teste termina em <data>. Depois, <preço do plano>."
 - Expirada: o selo "Expirada", o texto "Sua assinatura terminou em <data>." e o botão "Assinar", que abre **Assinar**.
+- Sem assinatura (entrou e ainda não assinou): o título "Você ainda não assinou", o Plano mensal e o Plano anual com os preços da App Store (e "Equivale a <valor> por mês" no anual), o texto "Comece com 7 dias grátis. Cancele quando quiser nos Ajustes do iPhone." e o botão "Começar 7 dias grátis", que abre **Começar o teste**. Quem já usou o teste na conta Apple vê só "Cancele quando quiser nos Ajustes do iPhone." e o botão "Assinar". Enquanto os preços carregam: "Carregando os preços…". Decidido pelo Matheus em 14/11/2026.
 - Sem internet ao excluir: "Você está sem internet. Conecte o iPhone para excluir a conta." Nada é apagado.
 
 ### Notificações
