@@ -32,7 +32,7 @@ Antes de começar o teste, o leitor não tem assinatura. Nessa situação ele po
 
 | De | Evento | Para | Quem | Efeitos |
 |---|---|---|---|---|
-| — | Começar o teste grátis, com o cartão cadastrado na App Store | `Em teste` | Leitor | Libera tudo por 7 dias, com um teto de 3 horas de narração gerada no teste inteiro. Decidido pelo Matheus em 10/11/2026. |
+| — | Começar o teste grátis, com o cartão cadastrado na App Store | `Em teste` | Leitor | Libera tudo por 7 dias, com um teto de 3 horas de narração gerada no teste inteiro. Decidido pelo Matheus em 10/11/2026. Ao bater as 3 horas, o app para de gerar narração nova, continua tocando o que já foi gerado e mostra o aviso "Você usou as 3 horas de voz do teste grátis. O que já foi preparado continua tocando, e o resto do livro volta quando a assinatura começar." Não há como antecipar a cobrança: quem encerra o teste é a App Store. Decidido pelo Matheus em 14/11/2026. |
 | `Em teste` | Fim dos 7 dias com a renovação ligada | `Ativa` | App Store | A App Store cobra o primeiro período do plano escolhido. |
 | `Em teste` | Fim dos 7 dias com a renovação desligada | `Expirada` | App Store | Bloqueia ler, ouvir e importar. A biblioteca continua visível e permite excluir livros. |
 | `Ativa` | Fim do período com a renovação ligada | `Ativa` | App Store | Cobra o período seguinte. Nada muda para o leitor. |
